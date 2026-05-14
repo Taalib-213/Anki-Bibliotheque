@@ -21,7 +21,7 @@
     "type": "nom",
     "arabic": "مُقَاوِّمَاتُ الْحَيَاة",
     "translation": "Fondements / Éléments de la vie",
-    "singular": "مُقَاوِّمَاتُ الْحَيَاة",
+    "singular": "مُقَاوِمَاتُ الْحَيَاة",
     "plural": "",
     "synonym": "",
     "opposite": ""
@@ -361,11 +361,11 @@
   },
   {
     "type": "verbe",
-    "arabic": "رَضَّ",
+    "arabic": "غَضَّ",
     "translation": "Baisser / Faire descendre",
-    "past": "رَضَّ",
-    "present": "يَرُضُّ",
-    "masdar": "رَضّ",
+    "past": "غَضَّ",
+    "present": "يَغُضُّ",
+    "masdar": "غَضّ",
     "harfJarr": ""
   },
   {
