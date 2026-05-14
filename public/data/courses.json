@@ -1,0 +1,16 @@
+[
+  {
+    "id": "furqan-1",
+    "title": "Al-Furqan - مستوى أول",
+    "category": "Arabe - Coran",
+    "description": "Vocabulaire complet du premier mustawa : noms, adjectifs et verbes étudiés jusqu'ici.",
+    "level": "",
+    "ankiFiles": [
+      {
+        "title": "Télécharger le paquet Anki - Al-Furqan - مستوى أول",
+        "file": "/anki/furqan-1.apkg"
+      }
+    ],
+    "vocabularyFile": "/data/vocabulary/furqan-1.json"
+  }
+]

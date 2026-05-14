@@ -1,0 +1,5618 @@
+[
+  {
+    "type": "nom",
+    "arabic": "بُحَيْرَة",
+    "translation": "Lac",
+    "singular": "بُحَيْرَة",
+    "plural": "بُحَيْرَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قَارَّة",
+    "translation": "Continent",
+    "singular": "قَارَّة",
+    "plural": "قَارَّات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَهْل",
+    "translation": "Facile",
+    "singular": "سَهْل",
+    "plural": "",
+    "synonym": "يَسِير",
+    "opposite": "صَعْب"
+  },
+  {
+    "type": "nom",
+    "arabic": "نَافِذَة",
+    "translation": "Fenêtre",
+    "singular": "نَافِذَة",
+    "plural": "نَوَافِذ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حُضُور",
+    "translation": "Présence",
+    "singular": "حُضُور",
+    "plural": "",
+    "synonym": "",
+    "opposite": "غِيَاب"
+  },
+  {
+    "type": "nom",
+    "arabic": "حَرَارَة",
+    "translation": "Chaleur / Température",
+    "singular": "حَرَارَة",
+    "plural": "حَرَارَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَدْر",
+    "translation": "Torse / Poitrine",
+    "singular": "صَدْر",
+    "plural": "صُدُور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَنَاح",
+    "translation": "Aile",
+    "singular": "جَنَاح",
+    "plural": "أَجْنِحَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَحْر",
+    "translation": "Mer",
+    "singular": "بَحْر",
+    "plural": "أَبْحُر/بُحُور/بِحَار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَعْض",
+    "translation": "Certain / Quelque",
+    "singular": "بَعْض",
+    "plural": "",
+    "synonym": "",
+    "opposite": "كُلّ"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُوَظَّف",
+    "translation": "Employé",
+    "singular": "مُوَظَّف",
+    "plural": "مُوَظَّفُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَاكِن",
+    "translation": "Habitant / Résident",
+    "singular": "سَاكِن",
+    "plural": "سُكَّان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أُسْرَة",
+    "translation": "Famille",
+    "singular": "أُسْرَة",
+    "plural": "أُسَر",
+    "synonym": "عَائِلَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَلَّاح",
+    "translation": "Agriculteur",
+    "singular": "فَلَّاح",
+    "plural": "فَلَّاحُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غَابَة",
+    "translation": "Forêt",
+    "singular": "غَابَة",
+    "plural": "غَابَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَاء",
+    "translation": "Eau",
+    "singular": "مَاء",
+    "plural": "مِيَاه",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَائِق",
+    "translation": "Chauffeur",
+    "singular": "سَائِق",
+    "plural": "سَائِقُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَعِيد",
+    "translation": "Loin",
+    "singular": "بَعِيد",
+    "plural": "",
+    "synonym": "",
+    "opposite": "قَرِيب"
+  },
+  {
+    "type": "nom",
+    "arabic": "إِذَاعَة",
+    "translation": "Radio / Annonce / Haute-parleur",
+    "singular": "إِذَاعَة",
+    "plural": "إِذَاعَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَغْلَب",
+    "translation": "La plupart",
+    "singular": "أَغْلَب",
+    "plural": "",
+    "synonym": "أَكْثَر",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وُسْطَى",
+    "translation": "Milieu (fém.)",
+    "singular": "وُسْطَى",
+    "plural": "وُسْطِيَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَرْكَز",
+    "translation": "Centre",
+    "singular": "مَرْكَز",
+    "plural": "مَرَاكِز",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَعْرِفَة",
+    "translation": "Connaissance / Info",
+    "singular": "مَعْرِفَة",
+    "plural": "مَعَارِف",
+    "synonym": "مَعْلُومَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَصْل",
+    "translation": "Origine / Source",
+    "singular": "أَصْل",
+    "plural": "أُصُول",
+    "synonym": "",
+    "opposite": "فَرْع"
+  },
+  {
+    "type": "nom",
+    "arabic": "أَصْغَر",
+    "translation": "Plus petit",
+    "singular": "أَصْغَر",
+    "plural": "أَصَاغِر",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِعْطَف",
+    "translation": "Manteau",
+    "singular": "مِعْطَف",
+    "plural": "مَعَاطِف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَاطِق",
+    "translation": "Locuteur / Qui parle",
+    "singular": "نَاطِق",
+    "plural": "نَاطِقُون",
+    "synonym": "مُتَكَلِّم",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خِدْمَة",
+    "translation": "Service",
+    "singular": "خِدْمَة",
+    "plural": "خَدَمَات",
+    "synonym": "مُسَاعَدَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِفْتَاح",
+    "translation": "Clé",
+    "singular": "مِفْتَاح",
+    "plural": "مَفَاتِيح",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَظْمَة",
+    "translation": "Os",
+    "singular": "عَظْمَة",
+    "plural": "عَظْم/عِظَام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَارِد",
+    "translation": "Froid",
+    "singular": "بَارِد",
+    "plural": "",
+    "synonym": "",
+    "opposite": "سَاخِن"
+  },
+  {
+    "type": "nom",
+    "arabic": "طَبِيب",
+    "translation": "Médecin",
+    "singular": "طَبِيب",
+    "plural": "أَطِبَّاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "كُلِّيَّة",
+    "translation": "Faculté (université)",
+    "singular": "كُلِّيَّة",
+    "plural": "كُلِّيَّات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَاب",
+    "translation": "Porte",
+    "singular": "بَاب",
+    "plural": "أَبْوَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَعْجَمِيّ",
+    "translation": "Étranger (langue non-arabe)",
+    "singular": "أَعْجَمِيّ",
+    "plural": "أَعَاجِم",
+    "synonym": "",
+    "opposite": "عَرَبِيّ"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُحِيط",
+    "translation": "Océan",
+    "singular": "مُحِيط",
+    "plural": "مُحِيطَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَالِم",
+    "translation": "Savant / Érudit",
+    "singular": "عَالِم",
+    "plural": "عُلَمَاء",
+    "synonym": "",
+    "opposite": "جَاهِل"
+  },
+  {
+    "type": "nom",
+    "arabic": "نَظِيف",
+    "translation": "Propre / Net",
+    "singular": "نَظِيف",
+    "plural": "",
+    "synonym": "",
+    "opposite": "وَسِخ"
+  },
+  {
+    "type": "nom",
+    "arabic": "لَازِمَة",
+    "translation": "Obligation",
+    "singular": "لَازِمَة",
+    "plural": "",
+    "synonym": "وَاجِبَة",
+    "opposite": "جَائِزَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "عَام",
+    "translation": "Année",
+    "singular": "عَام",
+    "plural": "أَعْوَام",
+    "synonym": "سَنَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَرَنْسِيّ",
+    "translation": "Français",
+    "singular": "فَرَنْسِيّ",
+    "plural": "فَرَنْسِيُّون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُسْتَوَى",
+    "translation": "Niveau",
+    "singular": "مُسْتَوَى",
+    "plural": "مُسْتَوَيَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "هَضَبَة",
+    "translation": "Plateau",
+    "singular": "هَضَبَة",
+    "plural": "هِضَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَذَان",
+    "translation": "Appel (à la prière)",
+    "singular": "أَذَان",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَقْد",
+    "translation": "Contrat",
+    "singular": "عَقْد",
+    "plural": "عُقُود",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَوّ",
+    "translation": "Atmosphère / Temps",
+    "singular": "جَوّ",
+    "plural": "أَجْوَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُدَّة",
+    "translation": "Durée / Une période de temps",
+    "singular": "مُدَّة",
+    "plural": "مُدَد/مُدَّات",
+    "synonym": "فَتْرَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَرْق",
+    "translation": "Éclair",
+    "singular": "بَرْق",
+    "plural": "",
+    "synonym": "ضَوْءٌ مَع الرَّعْد",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "طَائِرَة",
+    "translation": "Avion",
+    "singular": "طَائِرَة",
+    "plural": "طَائِرَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَدِيث",
+    "translation": "Parole / Discussion",
+    "singular": "حَدِيث",
+    "plural": "أَحَادِيث",
+    "synonym": "كَلَام",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْحَسَن",
+    "translation": "Bien / Bon",
+    "singular": "الْحَسَن",
+    "plural": "",
+    "synonym": "",
+    "opposite": "السَّيِّء"
+  },
+  {
+    "type": "nom",
+    "arabic": "غُرْفَة",
+    "translation": "Chambre",
+    "singular": "غُرْفَة",
+    "plural": "غُرَف",
+    "synonym": "حُجْرَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَتِيجَة",
+    "translation": "Résultat",
+    "singular": "نَتِيجَة",
+    "plural": "نَتَائِج",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "آيَة",
+    "translation": "Verset (Coran)",
+    "singular": "آيَة",
+    "plural": "آيَات",
+    "synonym": "عَلَامَة/مُعْجِزَة مِن الْقُرْآن",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَمْكَن",
+    "translation": "Possible",
+    "singular": "أَمْكَن",
+    "plural": "",
+    "synonym": "مُمْكِن",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "طَلَب",
+    "translation": "Demande",
+    "singular": "طَلَب",
+    "plural": "طَلَبَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَامِل",
+    "translation": "Complet / Global",
+    "singular": "شَامِل",
+    "plural": "",
+    "synonym": "كَامِل/كُلِّي",
+    "opposite": "نَاقِص/جُزْئِي"
+  },
+  {
+    "type": "nom",
+    "arabic": "أَمْر",
+    "translation": "Ordre / Commandement",
+    "singular": "أَمْر",
+    "plural": "أَوَامِر",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُكَالَمَة",
+    "translation": "Appel",
+    "singular": "مُكَالَمَة",
+    "plural": "مُكَالَمَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَحْرَاء",
+    "translation": "Désert",
+    "singular": "صَحْرَاء",
+    "plural": "صَحَارِي",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَعْلُومَة",
+    "translation": "Information / Donnée",
+    "singular": "مَعْلُومَة",
+    "plural": "مَعْلُومَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَطَر",
+    "translation": "Pluie",
+    "singular": "مَطَر",
+    "plural": "أَمْطَار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "كَشْف",
+    "translation": "Découverte / Révélation",
+    "singular": "كَشْف",
+    "plural": "كُشُوف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صُغْرَى",
+    "translation": "Petite (fém.)",
+    "singular": "صُغْرَى",
+    "plural": "صُغْرَيَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لَيْلَة",
+    "translation": "Nuit",
+    "singular": "لَيْلَة",
+    "plural": "لَيَالِي",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَاسِعَة",
+    "translation": "Large",
+    "singular": "وَاسِعَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": "ضَيِّقَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "حَمَّال",
+    "translation": "Porteur / Chargeur",
+    "singular": "حَمَّال",
+    "plural": "حَمَّالُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَرِكَة",
+    "translation": "Entreprise",
+    "singular": "شَرِكَة",
+    "plural": "شَرِكَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَرِير",
+    "translation": "Lit",
+    "singular": "سَرِير",
+    "plural": "أَسِرَّة/سُرُر",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غَرَض",
+    "translation": "Objectif / But",
+    "singular": "غَرَض",
+    "plural": "",
+    "synonym": "هَدَف",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَدَّاد",
+    "translation": "Compteur",
+    "singular": "عَدَّاد",
+    "plural": "عَدَّادَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَرْدَة",
+    "translation": "Rose 🌹",
+    "singular": "وَرْدَة",
+    "plural": "وَرْد/وَرَدَات",
+    "synonym": "زَرَدَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَيِّنَة",
+    "translation": "Échantillon",
+    "singular": "عَيِّنَة",
+    "plural": "عَيِّنَات",
+    "synonym": "جُزْءٌ مِنَ الْمَادَّة يُقَاسُ عَلَيْهَا",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عِدَّة",
+    "translation": "Plusieurs / Divers",
+    "singular": "عِدَّة",
+    "plural": "",
+    "synonym": "مَجْمُوعَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَوْعِد",
+    "translation": "Rendez-vous (temps ou lieu)",
+    "singular": "مَوْعِد",
+    "plural": "مَوَاعِيد",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَادِي",
+    "translation": "Vallée / Plaine",
+    "singular": "وَادِي",
+    "plural": "وَدِيَان/أَوْدِيَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "كُبْرَى",
+    "translation": "Grande (fém.)",
+    "singular": "كُبْرَى",
+    "plural": "كُبْرَيَات",
+    "synonym": "",
+    "opposite": "صُغْرَى"
+  },
+  {
+    "type": "nom",
+    "arabic": "كَثِيفَة",
+    "translation": "Dense / Épais",
+    "singular": "كَثِيفَة",
+    "plural": "",
+    "synonym": "كَثِيرَة الْوَرَق",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَقِيبَة",
+    "translation": "Valise / Sac",
+    "singular": "حَقِيبَة",
+    "plural": "حَقَائِب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَالَة",
+    "translation": "Salle",
+    "singular": "صَالَة",
+    "plural": "صَالَات",
+    "synonym": "نَحْو",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَشَرَة",
+    "translation": "Dix",
+    "singular": "عَشَرَة",
+    "plural": "عَشَرَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَعْد",
+    "translation": "Tonnerre",
+    "singular": "رَعْد",
+    "plural": "رُعُود",
+    "synonym": "صَوْتٌ قَبْل الْمَطَر",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جِنْسِيَّة",
+    "translation": "Nationalité",
+    "singular": "جِنْسِيَّة",
+    "plural": "جِنْسِيَّات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شُعَاع",
+    "translation": "Rayon / Radiation",
+    "singular": "شُعَاع",
+    "plural": "أَشِعَّة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فُنْدُق",
+    "translation": "Hôtel",
+    "singular": "فُنْدُق",
+    "plural": "فَنَادِق",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَهْر",
+    "translation": "Fleuve / Rivière",
+    "singular": "نَهْر",
+    "plural": "أَنْهَار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَشِيط",
+    "translation": "Actif / Dynamique",
+    "singular": "نَشِيط",
+    "plural": "نُشَطَاء",
+    "synonym": "",
+    "opposite": "كَسْلَان/كَسُول"
+  },
+  {
+    "type": "nom",
+    "arabic": "ثَلْج",
+    "translation": "Neige",
+    "singular": "ثَلْج",
+    "plural": "ثُلُوج",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "إِدَارَة",
+    "translation": "Direction / Administration",
+    "singular": "إِدَارَة",
+    "plural": "إِدَارَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَحْلِيل",
+    "translation": "Analyse",
+    "singular": "تَحْلِيل",
+    "plural": "تَحَالِيل",
+    "synonym": "تَفْكِيك الْمَادَّة لِمَعْرِفَة مُحْتَوَاهَا",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَعْرُوف",
+    "translation": "Connu / Célèbre",
+    "singular": "مَعْرُوف",
+    "plural": "",
+    "synonym": "مَعْلُوم",
+    "opposite": "مَجْهُول"
+  },
+  {
+    "type": "nom",
+    "arabic": "دَوْر",
+    "translation": "Rôle / Tour",
+    "singular": "دَوْر",
+    "plural": "أَدْوَار",
+    "synonym": "تَرْتِيب / طَابَق",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَوْسَط",
+    "translation": "Milieu / Moyen",
+    "singular": "أَوْسَط",
+    "plural": "أَوَاسِط",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَيَّارَة",
+    "translation": "Voiture",
+    "singular": "سَيَّارَة",
+    "plural": "سَيَّارَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَلَد",
+    "translation": "Pays",
+    "singular": "بَلَد",
+    "plural": "بِلَاد",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَمَّاعَة",
+    "translation": "Écouteur / Casque",
+    "singular": "سَمَّاعَة",
+    "plural": "سَمَّاعَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَيّ",
+    "translation": "Quartier",
+    "singular": "حَيّ",
+    "plural": "أَحْيَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أُجْرَة",
+    "translation": "Rémunération / Salaire",
+    "singular": "أُجْرَة",
+    "plural": "",
+    "synonym": "مَالٌ تُعْطِيه مُقَابِل الْعَمَل",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَدِينَة",
+    "translation": "Ville",
+    "singular": "مَدِينَة",
+    "plural": "مُدُن",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَوْلَة",
+    "translation": "État / Pays",
+    "singular": "دَوْلَة",
+    "plural": "دُوَل",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَارّ",
+    "translation": "Chaud",
+    "singular": "حَارّ",
+    "plural": "",
+    "synonym": "",
+    "opposite": "بَارِد"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُسْتَشْفَى",
+    "translation": "Hôpital",
+    "singular": "مُسْتَشْفَى",
+    "plural": "مُسْتَشْفَيَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَحَابَة",
+    "translation": "Nuage",
+    "singular": "سَحَابَة",
+    "plural": "سُحُب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "اخْتِبَار",
+    "translation": "Examen / Test",
+    "singular": "اخْتِبَار",
+    "plural": "اخْتِبَارَات",
+    "synonym": "امْتِحَان",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "اسْتِمَارَة",
+    "translation": "Formulaire",
+    "singular": "اسْتِمَارَة",
+    "plural": "إِسْتِمَارَات",
+    "synonym": "وَرَقَة مَكْتُوب فِيهَا بَعْض الْبَيَانَات",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَوَاز",
+    "translation": "Passeport",
+    "singular": "جَوَاز",
+    "plural": "جَوَازَات/أَجْوِزَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِئْر",
+    "translation": "Puits (f.)",
+    "singular": "بِئْر",
+    "plural": "آبَار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قُبَيْل",
+    "translation": "Peu avant",
+    "singular": "قُبَيْل",
+    "plural": "",
+    "synonym": "قَبْلَه بِقَلِيل",
+    "opposite": "بُعَيْد"
+  },
+  {
+    "type": "nom",
+    "arabic": "مَشْهُورَة",
+    "translation": "Célèbre / Connu",
+    "singular": "مَشْهُورَة",
+    "plural": "",
+    "synonym": "مَعْرُوفَة",
+    "opposite": "مَغْمُورَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "هَاتِف",
+    "translation": "Téléphone",
+    "singular": "هَاتِف",
+    "plural": "هَوَاتِف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَبَّة مَنْزِل",
+    "translation": "Femme au foyer",
+    "singular": "رَبَّة مَنْزِل",
+    "plural": "رَبَّات بُيُوت",
+    "synonym": "لَا تَعْمَل/ رَبَّة بَيْت",
+    "opposite": "عَامِلَة/مُوَظَّفَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "ثَمَن",
+    "translation": "Prix / Valeur",
+    "singular": "ثَمَن",
+    "plural": "أَثْمَان",
+    "synonym": "سِعْر",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِصْعَد",
+    "translation": "Ascenseur",
+    "singular": "مِصْعَد",
+    "plural": "مَصَاعِد",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَرعى",
+    "translation": "Pâturage",
+    "singular": "مَرعى",
+    "plural": "مَرَاعِي",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَبَل",
+    "translation": "Montagne",
+    "singular": "جَبَل",
+    "plural": "جِبَال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَوْلِيّ",
+    "translation": "International / Mondial",
+    "singular": "دَوْلِيّ",
+    "plural": "",
+    "synonym": "عَالَمِيّ",
+    "opposite": "مَحَلِّيّ/وَطَنِيّ"
+  },
+  {
+    "type": "nom",
+    "arabic": "فَخْمَا",
+    "translation": "Luxueux",
+    "singular": "فَخْمَا",
+    "plural": "",
+    "synonym": "فَاخِرًا",
+    "opposite": "بَسِيط"
+  },
+  {
+    "type": "nom",
+    "arabic": "إِقَامَة",
+    "translation": "Séjour / Résidence",
+    "singular": "إِقَامَة",
+    "plural": "إِقَامَات",
+    "synonym": "السَّكَن",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جِهَاز",
+    "translation": "Appareil",
+    "singular": "جِهَاز",
+    "plural": "أَجْهِزَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَقِيقَة",
+    "translation": "Minute",
+    "singular": "دَقِيقَة",
+    "plural": "دَقَائِق",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَجْم",
+    "translation": "Taille / Stature",
+    "singular": "حَجْم",
+    "plural": "أَحْجَام/حُجُوم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُتَزَوِّج",
+    "translation": "Marié(e) (actuellement)",
+    "singular": "مُتَزَوِّج",
+    "plural": "مُتَزَوِّجُون",
+    "synonym": "",
+    "opposite": "أَعْزَب/عَزَب"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُتَمَكِّن",
+    "translation": "Compétent / Capable",
+    "singular": "مُتَمَكِّن",
+    "plural": "مُتَمَكِّنُون",
+    "synonym": "مُجِيد",
+    "opposite": "غَيْر مُجِيد"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُمْتَازَة",
+    "translation": "Excellent",
+    "singular": "مُمْتَازَة",
+    "plural": "",
+    "synonym": "جَيِّدَة جِدًّا",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَامِعَة",
+    "translation": "Université",
+    "singular": "جَامِعَة",
+    "plural": "جَامِعَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَمَاء",
+    "translation": "Ciel",
+    "singular": "سَمَاء",
+    "plural": "سَمَاوَات",
+    "synonym": "",
+    "opposite": "أَرْض"
+  },
+  {
+    "type": "nom",
+    "arabic": "صَافِيَة",
+    "translation": "Dégagé / Sans nuages",
+    "singular": "صَافِيَة",
+    "plural": "",
+    "synonym": "لَيْسَ فِيهَا سُحُب",
+    "opposite": "غَائِمَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "تَلَّة / تَلّ",
+    "translation": "Collines (petites)",
+    "singular": "تَلَّة / تَلّ",
+    "plural": "تِلَال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "يَوْم",
+    "translation": "Jour",
+    "singular": "يَوْم",
+    "plural": "أَيَّام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَسْجِد",
+    "translation": "Mosquée",
+    "singular": "مَسْجِد",
+    "plural": "مَسَاجِد",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَطَار",
+    "translation": "Aéroport",
+    "singular": "مَطَار",
+    "plural": "مَطَارَات",
+    "synonym": "مَكَانُ نُزُول الطَّائِرَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَمَاعَة",
+    "translation": "Groupe / Communauté",
+    "singular": "جَمَاعَة",
+    "plural": "جَمَاعَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سُنَّة",
+    "translation": "Tradition / Loi islamique",
+    "singular": "سُنَّة",
+    "plural": "سُنَن",
+    "synonym": "",
+    "opposite": "فَرْض"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُمَرِّض",
+    "translation": "Infirmier",
+    "singular": "مُمَرِّض",
+    "plural": "مُمَرِّضُون",
+    "synonym": "مُسَاعِد الطَّبِيب",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَعْلِيم",
+    "translation": "Enseignement",
+    "singular": "تَعْلِيم",
+    "plural": "",
+    "synonym": "تَدْرِيس",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُعْتَدِل",
+    "translation": "Modéré / Raisonnable",
+    "singular": "مُعْتَدِل",
+    "plural": "",
+    "synonym": "مُتَوَسِّط",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَكْبَر",
+    "translation": "Plus grand",
+    "singular": "أَكْبَر",
+    "plural": "أَكَابِر",
+    "synonym": "",
+    "opposite": "أَصْغَر"
+  },
+  {
+    "type": "nom",
+    "arabic": "عَيْن",
+    "translation": "Œil",
+    "singular": "عَيْن",
+    "plural": "عُيُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَصِبَة",
+    "translation": "Fertile",
+    "singular": "خَصِبَة",
+    "plural": "",
+    "synonym": "صَالِحَة لِلزِّرَاعَة",
+    "opposite": "جَدْبَاء/بُور"
+  },
+  {
+    "type": "nom",
+    "arabic": "ذِكْر",
+    "translation": "Rappel / Souvenir",
+    "singular": "ذِكْر",
+    "plural": "أَذْكَار",
+    "synonym": "",
+    "opposite": "غَفْلَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "أَفْضَل",
+    "translation": "Meilleur / Préférable",
+    "singular": "أَفْضَل",
+    "plural": "",
+    "synonym": "أَحْسَن",
+    "opposite": "أَسْوَأ"
+  },
+  {
+    "type": "nom",
+    "arabic": "لُغَة",
+    "translation": "Langue",
+    "singular": "لُغَة",
+    "plural": "لُغَات",
+    "synonym": "لِسَان",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَتَحَ",
+    "translation": "Ouvrir",
+    "past": "فَتَحَ",
+    "present": "يَفْتَحُ",
+    "masdar": "فَتْح",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَهَّزَ",
+    "translation": "Préparer (appareil)",
+    "past": "جَهَّزَ",
+    "present": "يُجَهِّزُ",
+    "masdar": "تَجْهِيز",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَسَبَ",
+    "translation": "Compter / Calculer",
+    "past": "حَسَبَ",
+    "present": "يَحْسُبُ",
+    "masdar": "حِسَاب/حُسْبَان",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَالَ",
+    "translation": "Dire / Parler",
+    "past": "قَالَ",
+    "present": "يَقُولُ",
+    "masdar": "قَيْلُولَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَدَأَ",
+    "translation": "Commencer",
+    "past": "بَدَأَ",
+    "present": "يَبْدَأُ",
+    "masdar": "بَدْء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "طَهَا",
+    "translation": "Cuisiner (bouillir)",
+    "past": "طَهَا",
+    "present": "يَطْهُو",
+    "masdar": "طَهْو",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَطَّ",
+    "translation": "Écrire / Tracer",
+    "past": "خَطَّ",
+    "present": "يَخُطُّ",
+    "masdar": "خَطّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَعَا",
+    "translation": "Inviter / Appeler",
+    "past": "دَعَا",
+    "present": "يَدْعُو",
+    "masdar": "دَعْوَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَقِيَ",
+    "translation": "Rester / Demeurer",
+    "past": "بَقِيَ",
+    "present": "يَبْقَى",
+    "masdar": "بَقَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَوَّنَ",
+    "translation": "Noter / Écrire",
+    "past": "دَوَّنَ",
+    "present": "يُدَوِّنُ",
+    "masdar": "تَدْوِين",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَقَفَ",
+    "translation": "Arrêter / Cesser / Mettre fin",
+    "past": "وَقَفَ",
+    "present": "يَقِفُ",
+    "masdar": "وُقُوف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "مَكَثَ",
+    "translation": "Séjourner",
+    "past": "مَكَثَ",
+    "present": "يَمْكُثُ",
+    "masdar": "مُكْث/مُكُوث",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَرَّقَ",
+    "translation": "Diviser / Séparer",
+    "past": "فَرَّقَ",
+    "present": "يُفَرِّقُ",
+    "masdar": "تَفْرِيق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَرَّسَ",
+    "translation": "Donner des cours",
+    "past": "دَرَّسَ",
+    "present": "يُدَرِّسُ",
+    "masdar": "تَدْرِيس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَعَانَ",
+    "translation": "Aider",
+    "past": "أَعَانَ",
+    "present": "يُعِينُ",
+    "masdar": "إِعَانَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَدَّى",
+    "translation": "Accomplir / Exécuter / S'acquitter de / Rendre",
+    "past": "أَدَّى",
+    "present": "يُؤَدِّي",
+    "masdar": "تَأْدِيَة/أَدَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَفَعَ",
+    "translation": "Pousser / Payer",
+    "past": "دَفَعَ",
+    "present": "يَدْفَعُ",
+    "masdar": "دَفْع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَقَامَ",
+    "translation": "Demeurer / Séjourner .bis",
+    "past": "أَقَامَ",
+    "present": "يُقِيمُ",
+    "masdar": "إِقَامَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَخَرَّجَ",
+    "translation": "Être diplômé",
+    "past": "تَخَرَّجَ",
+    "present": "يَتَخَرَّجُ",
+    "masdar": "تَخَرُّج",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَخَلَ",
+    "translation": "Entrer",
+    "past": "دَخَلَ",
+    "present": "يَدْخُلُ",
+    "masdar": "دُخُول",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَعَادَ",
+    "translation": "Répéter / Recommencer",
+    "past": "أَعَادَ",
+    "present": "يُعِيدُ",
+    "masdar": "إِعَادَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَلَّ",
+    "translation": "Diminuer / Être rare",
+    "past": "قَلَّ",
+    "present": "يَقِلُّ",
+    "masdar": "قِلَّة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَنَاوَلَ",
+    "translation": "Prendre / Manger",
+    "past": "تَنَاوَلَ",
+    "present": "يَتَنَاوَلُ",
+    "masdar": "تَنَاوُل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِنْتَهَى",
+    "translation": "Terminer / Finir",
+    "past": "اِنْتَهَى",
+    "present": "يَنْتَهِي",
+    "masdar": "اِنْتِهَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَاظَبَ",
+    "translation": "Être assidu",
+    "past": "وَاظَبَ",
+    "present": "يُوَاظِبُ",
+    "masdar": "مُوَاظَبَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَهَّلَ",
+    "translation": "Rendre apte / Qualifier",
+    "past": "أَهَّلَ",
+    "present": "يُؤَهِّلُ",
+    "masdar": "تَأْهِيل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَأَى",
+    "translation": "Voir",
+    "past": "رَأَى",
+    "present": "يَرَى",
+    "masdar": "رُؤْيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَضَرَ",
+    "translation": "Être présent / Assister à",
+    "past": "حَضَرَ",
+    "present": "يَحْضُرُ",
+    "masdar": "حُضُور",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَاشَ",
+    "translation": "Vivre",
+    "past": "عَاشَ",
+    "present": "يَعِيشُ",
+    "masdar": "عَيْش",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَثُرَ",
+    "translation": "Augmenter / Être abondant",
+    "past": "كَثُرَ",
+    "present": "يَكْثُرُ",
+    "masdar": "كَثْرَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَادَى",
+    "translation": "Appeler / Héler",
+    "past": "نَادَى",
+    "present": "يُنَادِي",
+    "masdar": "نِدَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَحَصَ",
+    "translation": "Examiner",
+    "past": "فَحَصَ",
+    "present": "يَفْحَصُ",
+    "masdar": "فَحْص",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَعَدَّ",
+    "translation": "Préparer",
+    "past": "أَعَدَّ",
+    "present": "يُعِدُّ",
+    "masdar": "إِعْدَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِلْتَحَقَ",
+    "translation": "Rejoindre / S'inscrire",
+    "past": "اِلْتَحَقَ",
+    "present": "يَلْتَحِقُ",
+    "masdar": "اِلْتِحَاق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَحَبَّ",
+    "translation": "Aimer",
+    "past": "أَحَبَّ",
+    "present": "يُحِبُّ",
+    "masdar": "إِحْبَاب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَعَلَّمَ",
+    "translation": "Apprendre",
+    "past": "تَعَلَّمَ",
+    "present": "يَتَعَلَّمُ",
+    "masdar": "تَعَلُّم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَظَّمَ",
+    "translation": "Organiser / Structurer",
+    "past": "نَظَّمَ",
+    "present": "يُنَظِّمُ",
+    "masdar": "تَنْظِيم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَأَلَ",
+    "translation": "Demander",
+    "past": "سَأَلَ",
+    "present": "يَسْأَلُ",
+    "masdar": "سُؤَال",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَطَاعَ",
+    "translation": "Pouvoir / Être capable",
+    "past": "اِسْتَطَاعَ",
+    "present": "يَسْتَطِيعُ",
+    "masdar": "اِسْتِطَاعَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِجْتَهَدَ",
+    "translation": "Faire des efforts",
+    "past": "اِجْتَهَدَ",
+    "present": "يَجْتَهِدُ",
+    "masdar": "اِجْتِهَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ذَكَرَ",
+    "translation": "Se rappeler / Se souvenir",
+    "past": "ذَكَرَ",
+    "present": "يَذْكُرُ",
+    "masdar": "ذِكْر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَعِدَ",
+    "translation": "Monter",
+    "past": "صَعِدَ",
+    "present": "يَصْعَدُ",
+    "masdar": "صُعُود",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَارَ",
+    "translation": "Voyager / Marcher",
+    "past": "سَارَ",
+    "present": "يَسِيرُ",
+    "masdar": "سَيْر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَتَّبَ",
+    "translation": "Organiser / Ranger",
+    "past": "رَتَّبَ",
+    "present": "يُرَتِّبُ",
+    "masdar": "تَرْتِيب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "طَبَخَ",
+    "translation": "Cuisiner",
+    "past": "طَبَخَ",
+    "present": "يَطْبُخُ",
+    "masdar": "طَبْخ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَاسَ",
+    "translation": "Mesurer",
+    "past": "قَاسَ",
+    "present": "يَقِيسُ",
+    "masdar": "قِيَاس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَمَلَ",
+    "translation": "Porter",
+    "past": "حَمَلَ",
+    "present": "يَحْمِلُ",
+    "masdar": "حَمْل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَسَلَّمَ",
+    "translation": "Recevoir / Accepter",
+    "past": "تَسَلَّمَ",
+    "present": "يَتَسَلَّمُ",
+    "masdar": "تَسَلُّم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَرَسَ",
+    "translation": "Étudier",
+    "past": "دَرَسَ",
+    "present": "يَدْرُسُ",
+    "masdar": "دِرَاسَة/دَرْس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "غَطَّى",
+    "translation": "Couvrir",
+    "past": "غَطَّى",
+    "present": "يُغَطِّي",
+    "masdar": "تَغْطِيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَرَفَ",
+    "translation": "Savoir / Connaître",
+    "past": "عَرَفَ",
+    "present": "يَعْرِفُ",
+    "masdar": "مَعْرِفَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَجَابَ",
+    "translation": "Répondre",
+    "past": "أَجَابَ",
+    "present": "يُجِيبُ",
+    "masdar": "إِجَابَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَصَّ",
+    "translation": "Ranger / Aligner",
+    "past": "رَصَّ",
+    "present": "يَرُصُّ",
+    "masdar": "رَصّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَلَعَ",
+    "translation": "Enlever (vêtement)",
+    "past": "خَلَعَ",
+    "present": "يَخْلَعُ",
+    "masdar": "خَلْع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَشَفَ",
+    "translation": "Découvrir / Révéler",
+    "past": "كَشَفَ",
+    "present": "يَكْشِفُ",
+    "masdar": "كَشْف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَغْلَقَ",
+    "translation": "Fermer",
+    "past": "أَغْلَقَ",
+    "present": "يُغْلِقُ",
+    "masdar": "إِغْلَاق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَلَّمَ",
+    "translation": "Enseigner",
+    "past": "عَلَّمَ",
+    "present": "يُعَلِّمُ",
+    "masdar": "تَعْلِيم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ظَنَّ",
+    "translation": "Penser / Croire",
+    "past": "ظَنَّ",
+    "present": "يَظُنُّ",
+    "masdar": "ظَنّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَمَكَّنَ",
+    "translation": "Maîtriser / Être capable",
+    "past": "تَمَكَّنَ",
+    "present": "يَتَمَكَّنُ",
+    "masdar": "تَمَكُّن",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "مَلَأَ",
+    "translation": "Remplir",
+    "past": "مَلَأَ",
+    "present": "يَمْلَأُ",
+    "masdar": "مَلْء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَفِظَ",
+    "translation": "Mémoriser",
+    "past": "حَفِظَ",
+    "present": "يَحْفَظُ",
+    "masdar": "حِفْظ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَيْقَظَ",
+    "translation": "Se réveiller",
+    "past": "اِسْتَيْقَظَ",
+    "present": "يَسْتَيْقِظُ",
+    "masdar": "اِسْتِيقَاظ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَضَعَ",
+    "translation": "Poser / Mettre",
+    "past": "وَضَعَ",
+    "present": "يَضَعُ",
+    "masdar": "وَضْع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ذَاكَرَ",
+    "translation": "Réviser",
+    "past": "ذَاكَرَ",
+    "present": "يُذَاكِرُ",
+    "masdar": "مُذَاكَرَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَمَعَ",
+    "translation": "Rassembler / Réunir",
+    "past": "جَمَعَ",
+    "present": "يَجْمَعُ",
+    "masdar": "جَمْع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِرْتَدَى",
+    "translation": "Porter (vêtement)",
+    "past": "اِرْتَدَى",
+    "present": "يَرْتَدِي",
+    "masdar": "اِرْتِدَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَجَمَّعَ",
+    "translation": "Se rassembler",
+    "past": "تَجَمَّعَ",
+    "present": "يَتَجَمَّعُ",
+    "masdar": "تَجَمُّع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَقْبَلَ",
+    "translation": "Accueillir / Recevoir",
+    "past": "اِسْتَقْبَلَ",
+    "present": "يَسْتَقْبِلُ",
+    "masdar": "اِسْتِقْبَال",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَجَزَ",
+    "translation": "Être incapable",
+    "past": "عَجَزَ",
+    "present": "يَعْجَزُ",
+    "masdar": "عَجْز",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "يَئِسَ",
+    "translation": "Perdre espoir / Désespérer",
+    "past": "يَئِسَ",
+    "present": "يَيْأَسُ",
+    "masdar": "يَأْس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَكِبَ",
+    "translation": "Monter (transport)",
+    "past": "رَكِبَ",
+    "present": "يَرْكَبُ",
+    "masdar": "رُكُوب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ضَغَطَ (على)",
+    "translation": "Appuyer / Faire pression",
+    "past": "ضَغَطَ (على)",
+    "present": "يَضْغَطُ",
+    "masdar": "ضَغْط",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَدَّعَ",
+    "translation": "Dire au revoir",
+    "past": "وَدَّعَ",
+    "present": "يُوَدِّعُ",
+    "masdar": "تَوْدِيع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَصَفَّحَ",
+    "translation": "Feuilleter",
+    "past": "تَصَفَّحَ",
+    "present": "يَتَصَفَّحُ",
+    "masdar": "تَصَفُّح",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَجَبَ",
+    "translation": "Être obligatoire / Incomber",
+    "past": "وَجَبَ",
+    "present": "يَجِبُ",
+    "masdar": "وُجُوب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَلَّمَ",
+    "translation": "Saluer / Remettre",
+    "past": "سَلَّمَ",
+    "present": "يُسَلِّمُ",
+    "masdar": "تَسْلِيم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَفَرَّقَ",
+    "translation": "Se disperser / Se diviser",
+    "past": "تَفَرَّقَ",
+    "present": "يَتَفَرَّقُ",
+    "masdar": "تَفَرُّق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَامَ",
+    "translation": "Dormir",
+    "past": "نَامَ",
+    "present": "يَنَامُ",
+    "masdar": "نَوْم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَدَّدَ",
+    "translation": "Renouveler",
+    "past": "جَدَّدَ",
+    "present": "يُجَدِّدُ",
+    "masdar": "تَجْدِيد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَلَسَ",
+    "translation": "S'asseoir",
+    "past": "جَلَسَ",
+    "present": "يَجْلِسُ",
+    "masdar": "جُلُوس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَسَّخَ",
+    "translation": "Salir",
+    "past": "وَسَّخَ",
+    "present": "يُوَسِّخُ",
+    "masdar": "تَوْسِيخ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَخْبَرَ",
+    "translation": "Informer",
+    "past": "أَخْبَرَ",
+    "present": "يُخْبِرُ",
+    "masdar": "إِخْبَار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَرِهَ",
+    "translation": "Détester",
+    "past": "كَرِهَ",
+    "present": "يَكْرَهُ",
+    "masdar": "كُرْه",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَارَ",
+    "translation": "Devenir",
+    "past": "صَارَ",
+    "present": "يَصِيرُ",
+    "masdar": "صَيْرُورَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "طَهَّى",
+    "translation": "Cuisiner (frire)",
+    "past": "طَهَّى",
+    "present": "يُطَهِّي",
+    "masdar": "طَهْي",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ضَبَطَ",
+    "translation": "Régler / Calibrer avec précision",
+    "past": "ضَبَطَ",
+    "present": "يَضْبِطُ",
+    "masdar": "ضَبْط",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَظَّفَ",
+    "translation": "Nettoyer",
+    "past": "نَظَّفَ",
+    "present": "يُنَظِّفُ",
+    "masdar": "تَنْظِيف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَمِعَ",
+    "translation": "Entendre / Écouter",
+    "past": "سَمِعَ",
+    "present": "يَسْمَعُ",
+    "masdar": "سَمْع/سَمَاع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَكَنَ",
+    "translation": "Habiter / Résider",
+    "past": "سَكَنَ",
+    "present": "يَسْكُنُ",
+    "masdar": "سَكَن",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَجَّلَ",
+    "translation": "Enregistrer",
+    "past": "سَجَّلَ",
+    "present": "يُسَجِّلُ",
+    "masdar": "تَسْجِيل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَخَذَ",
+    "translation": "Prendre",
+    "past": "أَخَذَ",
+    "present": "يَأْخُذُ",
+    "masdar": "أَخْذ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "غَابَ",
+    "translation": "Être absent",
+    "past": "غَابَ",
+    "present": "يَغِيبُ",
+    "masdar": "غِيَاب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَعَدَّ",
+    "translation": "Se préparer",
+    "past": "اِسْتَعَدَّ",
+    "present": "يَسْتَعِدُّ",
+    "masdar": "اِسْتِعْدَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَزَلَ",
+    "translation": "Descendre / Tomber (pluie)",
+    "past": "نَزَلَ",
+    "present": "يَنْزِلُ",
+    "masdar": "نُزُول",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَكَلَّمَ",
+    "translation": "Parler",
+    "past": "تَكَلَّمَ",
+    "present": "يَتَكَلَّمُ",
+    "masdar": "تَكَلُّم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ضَلَّ",
+    "translation": "S'égarer de",
+    "past": "ضَلَّ",
+    "present": "يَضِلُّ",
+    "masdar": "ضَلَال",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَلَفَ",
+    "translation": "Jurer par",
+    "past": "حَلَفَ",
+    "present": "يَحْلِفُ",
+    "masdar": "حَلْف",
+    "harfJarr": "بِ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "مَرَّ",
+    "translation": "Passer par",
+    "past": "مَرَّ",
+    "present": "يَمُرُّ",
+    "masdar": "مُرُور",
+    "harfJarr": "بِ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَجَعَ",
+    "translation": "Revenir vers",
+    "past": "رَجَعَ",
+    "present": "يَرْجِعُ",
+    "masdar": "رُجُوع",
+    "harfJarr": "إِلَى"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَصَدَّى",
+    "translation": "Affronter / Faire face à",
+    "past": "تَصَدَّى",
+    "present": "يَتَصَدَّى",
+    "masdar": "تَصَدٍّ",
+    "harfJarr": "لِ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَافَ",
+    "translation": "Craindre",
+    "past": "خَافَ",
+    "present": "يَخَافُ",
+    "masdar": "خَوْف",
+    "harfJarr": "مِنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَسَاءَلَ",
+    "translation": "S'interroger sur",
+    "past": "تَسَاءَلَ",
+    "present": "يَتَسَاءَلُ",
+    "masdar": "تَسَاؤُل",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِخْتَلَفَ",
+    "translation": "Différer dans / être en désaccord sur",
+    "past": "اِخْتَلَفَ",
+    "present": "يَخْتَلِفُ",
+    "masdar": "اِخْتِلَاف",
+    "harfJarr": "فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَوَى",
+    "translation": "S'établir",
+    "past": "اِسْتَوَى",
+    "present": "يَسْتَوِي",
+    "masdar": "اِسْتِوَاء",
+    "harfJarr": "عَلَى"
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَحَا",
+    "translation": "Guérir de / Sortir d'un etat",
+    "past": "صَحَا",
+    "present": "يَصْحُو",
+    "masdar": "صَحْو",
+    "harfJarr": "مِنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَكَوَّن",
+    "translation": "Être composé de",
+    "past": "تَكَوَّن",
+    "present": "يَتَكَوَّنُ",
+    "masdar": "تَكَوُّن",
+    "harfJarr": "مِنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "طَغَى",
+    "translation": "Se rebeller dans / transgresser",
+    "past": "طَغَى",
+    "present": "يَطْغَى",
+    "masdar": "طُغْيَان",
+    "harfJarr": "فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَذَبَ",
+    "translation": "Mentir sur",
+    "past": "كَذَبَ",
+    "present": "يَكْذِبُ",
+    "masdar": "كَذِب",
+    "harfJarr": "عَلَى"
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَزِنَ",
+    "translation": "Être triste à cause de / pour",
+    "past": "حَزِنَ",
+    "present": "يَحْزَنُ",
+    "masdar": "حُزْن",
+    "harfJarr": "عَلَى"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَرَكَّبَ",
+    "translation": "Être fait de / monté sur",
+    "past": "تَرَكَّبَ",
+    "present": "يَتَرَكَّبُ",
+    "masdar": "تَرَكُّب",
+    "harfJarr": "مِنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَغْنَى",
+    "translation": "Se passer de / être indépendant de",
+    "past": "اِسْتَغْنَى",
+    "present": "يَسْتَغْنِي",
+    "masdar": "اِسْتِغْنَاء",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَعْرَضَ",
+    "translation": "Se détourner de / ignorer",
+    "past": "أَعْرَضَ",
+    "present": "يُعْرِضُ",
+    "masdar": "إِعْرَاض",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَدَقَ",
+    "translation": "Être sincère dans",
+    "past": "صَدَقَ",
+    "present": "يَصْدُقُ",
+    "masdar": "صِدْق",
+    "harfJarr": "فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "زَاغَ",
+    "translation": "Dévier de / s'écarter de",
+    "past": "زَاغَ",
+    "present": "يَزِيغُ",
+    "masdar": "زَيْغ",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِبْتَعَدَ",
+    "translation": "S'éloigner de",
+    "past": "اِبْتَعَدَ",
+    "present": "يَبْتَعِدُ",
+    "masdar": "اِبْتِعَاد",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَوَلَّى",
+    "translation": "Se détourner de",
+    "past": "تَوَلَّى",
+    "present": "يَتَوَلَّى",
+    "masdar": "تَوَلٍّ",
+    "harfJarr": "عَنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَقْسَمَ",
+    "translation": "Jurer par (serment fort)",
+    "past": "أَقْسَمَ",
+    "present": "يُقْسِمُ",
+    "masdar": "إِقْسَام",
+    "harfJarr": "بِ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَعَى",
+    "translation": "S'efforcer vers / chercher à",
+    "past": "سَعَى",
+    "present": "يَسْعَى",
+    "masdar": "سَعْي",
+    "harfJarr": "إِلَى – فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِقْتَرَبَ",
+    "translation": "Se rapprocher de",
+    "past": "اِقْتَرَبَ",
+    "present": "يَقْتَرِبُ",
+    "masdar": "اِقْتِرَاب",
+    "harfJarr": "مِنْ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَادَلَ",
+    "translation": "Débattre / disputer",
+    "past": "جَادَلَ",
+    "present": "يُجَادِلُ",
+    "masdar": "مُجَادَلَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَحْصَى",
+    "translation": "Recenser / dénombrer",
+    "past": "أَحْصَى",
+    "present": "يُحْصِي",
+    "masdar": "إِحْصَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَبَّرَ",
+    "translation": "Administrer / gérer",
+    "past": "دَبَّرَ",
+    "present": "يُدَبِّرُ",
+    "masdar": "تَدْبِير",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَتَلَ",
+    "translation": "Tuer",
+    "past": "قَتَلَ",
+    "present": "يَقْتُلُ",
+    "masdar": "قَتْل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَشِيَ",
+    "translation": "Craindre",
+    "past": "خَشِيَ",
+    "present": "يَخْشَى",
+    "masdar": "خَشْيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَنْزَلَ",
+    "translation": "Faire descendre / révéler",
+    "past": "أَنْزَلَ",
+    "present": "يُنْزِلُ",
+    "masdar": "إِنْزَال",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَنْبَتَ",
+    "translation": "Faire pousser / faire germer",
+    "past": "أَنْبَتَ",
+    "present": "يُنْبِتُ",
+    "masdar": "إِنْبَات",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَجَا",
+    "translation": "Espérer / aspirer à",
+    "past": "رَجَا",
+    "present": "يَرْجُو",
+    "masdar": "رَجَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "مَلَكَ",
+    "translation": "Posséder / détenir",
+    "past": "مَلَكَ",
+    "present": "يَمْلِكُ",
+    "masdar": "مُلْك",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَبَتَ",
+    "translation": "Avilir / Humilier / Réprimer / Contenir",
+    "past": "كَبَتَ",
+    "present": "يَكْبِتُ",
+    "masdar": "كَبْت",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَنَى",
+    "translation": "Construire / bâtir",
+    "past": "بَنَى",
+    "present": "يَبْنِي",
+    "masdar": "بِنَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَعَظَ",
+    "translation": "Exhorter / prêcher",
+    "past": "وَعَظَ",
+    "present": "يَعِظُ",
+    "masdar": "وَعْظ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَثَّرَ",
+    "translation": "Affecter / influencer",
+    "past": "أَثَّرَ",
+    "present": "يُؤَثِّرُ",
+    "masdar": "تَأْثِير",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَنْذَرَ",
+    "translation": "Avertir / prévenir",
+    "past": "أَنْذَرَ",
+    "present": "يُنْذِرُ",
+    "masdar": "إِنْذَار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَذَكَّرَ",
+    "translation": "Se souvenir / se rappeler",
+    "past": "تَذَكَّرَ",
+    "present": "يَتَذَكَّرُ",
+    "masdar": "تَذَكُّر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَلَقَ",
+    "translation": "Créer",
+    "past": "خَلَقَ",
+    "present": "يَخْلُقُ",
+    "masdar": "خَلْق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَدَى",
+    "translation": "Guider / orienter",
+    "past": "هَدَى",
+    "present": "يَهْدِي",
+    "masdar": "هِدَايَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَفَعَ",
+    "translation": "Être utile à / profiter à",
+    "past": "نَفَعَ",
+    "present": "يَنْفَعُ",
+    "masdar": "نَفْع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَمَرَ",
+    "translation": "Ordonner / commander",
+    "past": "أَمَرَ",
+    "present": "يَأْمُرُ",
+    "masdar": "أَمْر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَكَلَ",
+    "translation": "Manger",
+    "past": "أَكَلَ",
+    "present": "يَأْكُلُ",
+    "masdar": "أَكْل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَامَ",
+    "translation": "Jeûner",
+    "past": "صَامَ",
+    "present": "يَصُومُ",
+    "masdar": "صَوْم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "شَاهَدَ",
+    "translation": "Témoigner",
+    "past": "شَاهَدَ",
+    "present": "يُشَاهِدُ",
+    "masdar": "مُشَاهَدَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَخْرَجَ",
+    "translation": "Faire sortir",
+    "past": "أَخْرَجَ",
+    "present": "يُخْرِجُ",
+    "masdar": "إِخْرَاج",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "شَاءَ",
+    "translation": "Vouloir",
+    "past": "شَاءَ",
+    "present": "يَشَاءُ",
+    "masdar": "مَشِيئَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَمَاتَ",
+    "translation": "Faire mourir / tuer",
+    "past": "أَمَاتَ",
+    "present": "يُمِيتُ",
+    "masdar": "إِمَاتَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "يَسَّرَ",
+    "translation": "Faciliter / rendre aisé",
+    "past": "يَسَّرَ",
+    "present": "يُيَسِّرُ",
+    "masdar": "تَيْسِير",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَذَّبَ",
+    "translation": "Traiter de menteur / démentir",
+    "past": "كَذَّبَ",
+    "present": "يُكَذِّبُ",
+    "masdar": "تَكْذِيب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَدَبَّرَ",
+    "translation": "Se rappeler / méditer",
+    "past": "تَدَبَّرَ",
+    "present": "يَتَدَبَّرُ",
+    "masdar": "تَدَبُّر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ذَاقَ",
+    "translation": "Goûter",
+    "past": "ذَاقَ",
+    "present": "يَذُوقُ",
+    "masdar": "ذَوْق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَتَى",
+    "translation": "Venir à / apporter",
+    "past": "أَتَى",
+    "present": "يَأْتِي",
+    "masdar": "إِتْيَان",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَرْسَى",
+    "translation": "Établir / ancrer",
+    "past": "أَرْسَى",
+    "present": "يُرْسِي",
+    "masdar": "إِرْسَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَرَى",
+    "translation": "Courir",
+    "past": "جَرَى",
+    "present": "يَجْرِي",
+    "masdar": "جَري",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَهْر",
+    "translation": "Mois",
+    "singular": "شَهْر",
+    "plural": "شُهُور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَوَّابَة",
+    "translation": "Portail / Grande porte",
+    "singular": "بَوَّابَة",
+    "plural": "بَوَّابَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَجْدِيد",
+    "translation": "Renouvellement",
+    "singular": "تَجْدِيد",
+    "plural": "تَجْدِيدَات",
+    "synonym": "تَحْدِيث",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَجْه",
+    "translation": "Visage / Face",
+    "singular": "وَجْه",
+    "plural": "وُجُوه",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَقْم",
+    "translation": "Numéro / Chiffre",
+    "singular": "رَقْم",
+    "plural": "أَرْقَام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَيِّد",
+    "translation": "Bien / Bon",
+    "singular": "جَيِّد",
+    "plural": "",
+    "synonym": "",
+    "opposite": "سَيِّئ"
+  },
+  {
+    "type": "nom",
+    "arabic": "طَابُور",
+    "translation": "File d'attente",
+    "singular": "طَابُور",
+    "plural": "طَوَابِير",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ضَابِط",
+    "translation": "Officier / Gendarme",
+    "singular": "ضَابِط",
+    "plural": "ضُبَّاط",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَعْدِن",
+    "translation": "Métal",
+    "singular": "مَعْدِن",
+    "plural": "مَعَادِن",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شُرْطِيّ",
+    "translation": "Policier",
+    "singular": "شُرْطِيّ",
+    "plural": "شُرْطِيُّون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَبْر",
+    "translation": "À travers / Par",
+    "singular": "عَبْر",
+    "plural": "",
+    "synonym": "خِلَال",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شُبَّاك",
+    "translation": "Fenêtre / Guichet",
+    "singular": "شُبَّاك",
+    "plural": "شَبَابِيك",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَخِيرًا",
+    "translation": "Finalement / Enfin",
+    "singular": "أَخِيرًا",
+    "plural": "",
+    "synonym": "فِي النِّهَايَة",
+    "opposite": "أَوَّلًا"
+  },
+  {
+    "type": "nom",
+    "arabic": "مَجْنُون",
+    "translation": "Fou / Insensé",
+    "singular": "مَجْنُون",
+    "plural": "مَجَانِين",
+    "synonym": "",
+    "opposite": "عَاقِل"
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَهِمَ",
+    "translation": "Comprendre",
+    "past": "فَهِمَ",
+    "present": "يَفْهَمُ",
+    "masdar": "فَهْم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَعْطَى",
+    "translation": "Donner",
+    "past": "أَعْطَى",
+    "present": "يُعْطِي",
+    "masdar": "عَطَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَصَلَ",
+    "translation": "Arriver",
+    "past": "وَصَلَ",
+    "present": "يَصِلُ",
+    "masdar": "وُصُول",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَزْعَجَ",
+    "translation": "Perturber / Déranger",
+    "past": "أَزْعَجَ",
+    "present": "يُزْعِجُ",
+    "masdar": "إِزْعَاج",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَازَ",
+    "translation": "Passer / Aller",
+    "past": "جَازَ",
+    "present": "يَجُوزُ",
+    "masdar": "جَوَاز",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "غَضِبَ",
+    "translation": "Se mettre en colère",
+    "past": "غَضِبَ",
+    "present": "يَغْضَبُ",
+    "masdar": "غَضَب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَتَّشَ",
+    "translation": "Fouiller / Perquisitionner",
+    "past": "فَتَّشَ",
+    "present": "يُفَتِّشُ",
+    "masdar": "تَفْتِيش",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَرَادَ",
+    "translation": "Vouloir .bis",
+    "past": "أَرَادَ",
+    "present": "يُرِيدُ",
+    "masdar": "إِرَادَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "صَرَخَ",
+    "translation": "Crier",
+    "past": "صَرَخَ",
+    "present": "يَصرُخُ",
+    "masdar": "صُرَاخ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَادَ",
+    "translation": "Revenir",
+    "past": "عَادَ",
+    "present": "يَعُودُ",
+    "masdar": "عَوْدَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَدَّثَ",
+    "translation": "Parler / Raconter",
+    "past": "حَدَّثَ",
+    "present": "يُحَدِّثُ",
+    "masdar": "تَحْدِيث",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَسِيم",
+    "translation": "Brise / Vent doux",
+    "singular": "نَسِيم",
+    "plural": "نَسَائِم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَافِئ",
+    "translation": "Chaud / Tiède",
+    "singular": "دَافِئ",
+    "plural": "",
+    "synonym": "",
+    "opposite": "بَارِد"
+  },
+  {
+    "type": "nom",
+    "arabic": "حَالَة",
+    "translation": "Situation / État",
+    "singular": "حَالَة",
+    "plural": "حَالَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَيْل",
+    "translation": "Torrent / Inondation / Ce qui coule",
+    "singular": "سَيْل",
+    "plural": "سُيُول",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِنْطَقَة / مَنْطِقَة",
+    "translation": "Position / Région",
+    "singular": "مِنْطَقَة / مَنْطِقَة",
+    "plural": "مَنَاطِق",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَلبَس",
+    "translation": "Vêtements / Habits",
+    "singular": "مَلبَس",
+    "plural": "مَلَابِس",
+    "synonym": "ثَوْب",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُهْلِكَة",
+    "translation": "Meurtrier / Mortel / Destructeur (f.)",
+    "singular": "مُهْلِكَة",
+    "plural": "مُهْلِكَات",
+    "synonym": "قَاتِلَة - فَانِيَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُدَمِّر",
+    "translation": "Destructeur (m.)",
+    "singular": "مُدَمِّر",
+    "plural": "مُدَمِّرُون",
+    "synonym": "مُحَطِّم",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جِدَار",
+    "translation": "Mur",
+    "singular": "جِدَار",
+    "plural": "جُدْرَان",
+    "synonym": "حَائِط",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِيئَة",
+    "translation": "Atmosphere / Environnement / Region",
+    "singular": "بِيئَة",
+    "plural": "بِيئَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَصْل",
+    "translation": "Saison",
+    "singular": "فَصْل",
+    "plural": "فُصُول",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَقْت",
+    "translation": "Temps / Moment",
+    "singular": "وَقْت",
+    "plural": "أَوْقَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بُرُودَة",
+    "translation": "Froideur",
+    "singular": "بُرُودَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": "سُخُونَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "عَاصِفَة",
+    "translation": "Tempête",
+    "singular": "عَاصِفَة",
+    "plural": "عَوَاصِف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَرَجَة",
+    "translation": "Degré / Échelon",
+    "singular": "دَرَجَة",
+    "plural": "دَرَجَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَمْلُوءَة",
+    "translation": "Plein / Rempli",
+    "singular": "مَمْلُوءَة",
+    "plural": "",
+    "synonym": "مُمْتَلِئَة",
+    "opposite": "فَارِغَة"
+  },
+  {
+    "type": "nom",
+    "arabic": "سَنَة",
+    "translation": "Année",
+    "singular": "سَنَة",
+    "plural": "سَنَوَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَفِيفَة",
+    "translation": "Léger (f.)",
+    "singular": "خَفِيفَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": "ثَقِيلَة"
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَمَّى",
+    "translation": "Nommer",
+    "past": "سَمَّى",
+    "present": "يُسَمِّي",
+    "masdar": "تَسْمِيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِرْتَجَفَ",
+    "translation": "Trembler",
+    "past": "اِرْتَجَفَ",
+    "present": "يَرْتَجِفُ",
+    "masdar": "اِرْتِجَاف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِرْتَفَعَ",
+    "translation": "S'élever / Se lever",
+    "past": "اِرْتَفَعَ",
+    "present": "يَرْتَفِعُ",
+    "masdar": "اِرْتِفَاع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَقَرَّ",
+    "translation": "Se stabiliser",
+    "past": "اِسْتَقَرَّ",
+    "present": "يَسْتَقِرُّ",
+    "masdar": "اِسْتِقْرَار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَطَلَ",
+    "translation": "Descendre en cascade",
+    "past": "هَطَلَ",
+    "present": "يَهْطِلُ",
+    "masdar": "هَطَل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَمَرَّ",
+    "translation": "Continuer / Persister",
+    "past": "اِسْتَمَرَّ",
+    "present": "يَسْتَمِرُّ",
+    "masdar": "اِسْتِمْرَار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَفَتَّحَ",
+    "translation": "S'ouvrir / Fleurir",
+    "past": "تَفَتَّحَ",
+    "present": "يَتَفَتَّحُ",
+    "masdar": "تَفَتُّح",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "شَرَحَ",
+    "translation": "Expliquer / Exprimer",
+    "past": "شَرَحَ",
+    "present": "يَشْرَحُ",
+    "masdar": "شَرْح",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَجَبَ",
+    "translation": "Voiler / Cacher",
+    "past": "حَجَبَ",
+    "present": "يَحْجُبُ",
+    "masdar": "حَجْب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "لَبِسَ",
+    "translation": "Mettre (vêtement)",
+    "past": "لَبِسَ",
+    "present": "يَلْبَسُ",
+    "masdar": "لُبْس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِرْتَعَدَ",
+    "translation": "Trembler (froid/peur)",
+    "past": "اِرْتَعَدَ",
+    "present": "يَرْتَعِدُ",
+    "masdar": "اِرْتِعَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِنْقَطَعَ",
+    "translation": "Être coupé",
+    "past": "اِنْقَطَعَ",
+    "present": "يَنْقَطِعُ",
+    "masdar": "اِنْقِطَاع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَسَا",
+    "translation": "Revetir / Habiller",
+    "past": "كَسَا",
+    "present": "يَكْسُو",
+    "masdar": "كِسَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِنْخَفَضَ",
+    "translation": "S'abaisser / Descendre",
+    "past": "اِنْخَفَضَ",
+    "present": "يَنْخَفِضُ",
+    "masdar": "اِنْخِفَاض",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَسَاقَطَ",
+    "translation": "Tomber (en cascade)",
+    "past": "تَسَاقَطَ",
+    "present": "يَتَسَاقَطُ",
+    "masdar": "تَسَاقُط",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِعْتَادَ",
+    "translation": "Être habitué à",
+    "past": "اِعْتَادَ",
+    "present": "يَعْتَادُ",
+    "masdar": "اِعْتِيَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَبَّ",
+    "translation": "S'agiter",
+    "past": "هَبَّ",
+    "present": "يَهُبُّ",
+    "masdar": "هُبُوب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَدَأَ",
+    "translation": "Se calmer",
+    "past": "هَدَأَ",
+    "present": "يَهْدَأُ",
+    "masdar": "هُدُوء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَوَّجَ",
+    "translation": "Promouvoir",
+    "past": "رَوَّجَ",
+    "present": "يُرَوِّجُ",
+    "masdar": "تَرْوِيجٌ",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "استِوائيَّة",
+    "translation": "Tropical",
+    "singular": "استِوائيَّة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زَهْرَة",
+    "translation": "Fleur",
+    "singular": "زَهْرَة",
+    "plural": "أَزْهَار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رُطُوبَةٌ",
+    "translation": "Humidité",
+    "singular": "رُطُوبَةٌ",
+    "plural": "رُطُوبَاتٌ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَيْفُ",
+    "translation": "Eté",
+    "singular": "صَيْفُ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَبِيعُ",
+    "translation": "Printemps",
+    "singular": "رَبِيعُ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَرِيفُ",
+    "translation": "Automne",
+    "singular": "خَرِيفُ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شِتَاءُ",
+    "translation": "Hiver",
+    "singular": "شِتَاءُ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِدْفَأَة",
+    "translation": "Chauffage / Radiateur",
+    "singular": "مِدْفَأَة",
+    "plural": "مِدْفَأَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تاريخ",
+    "translation": "Date",
+    "singular": "تاريخ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَرَّبَ",
+    "translation": "Essayer / Tester (qlqc)",
+    "past": "جَرَّبَ",
+    "present": "يُجَرِّب",
+    "masdar": "تَجْرِبَة / تَجْرِيب",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "آ سفٌ",
+    "translation": "Je suis désolé",
+    "singular": "آ سفٌ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُجَمَّع",
+    "translation": "Un complexe",
+    "singular": "مُجَمَّع",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُوَظِّف",
+    "translation": "Employeur",
+    "singular": "مُوَظِّف",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَكْل",
+    "translation": "Forme / Figure",
+    "singular": "شَكْل",
+    "plural": "أَشْكَال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خُرْطُوم",
+    "translation": "Trompe (éléphant)",
+    "singular": "خُرْطُوم",
+    "plural": "خَرَاطِيم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُبْهِرَة",
+    "translation": "Magnifique",
+    "singular": "مُبْهِرَة",
+    "plural": "",
+    "synonym": "جَمِيلَةُ الْمَنْظَر",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زَاهِيَة",
+    "translation": "Tape à l'oeil",
+    "singular": "زَاهِيَة",
+    "plural": "",
+    "synonym": "جَمِيلَة وَاضِحَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَرَسُ النَّهْر",
+    "translation": "Hippopotame",
+    "singular": "فَرَسُ النَّهْر",
+    "plural": "أَفْرَاسُ النَّهْر",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَهْد",
+    "translation": "Guépard",
+    "singular": "فَهْد",
+    "plural": "فُهُود",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عُصْفُور",
+    "translation": "Petits Oiseaux",
+    "singular": "عُصْفُور",
+    "plural": "عَصَافِير",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عُطْلَة",
+    "translation": "Vacances",
+    "singular": "عُطْلَة",
+    "plural": "عُطْلَات",
+    "synonym": "إِجَازَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَضْخَم",
+    "translation": "Le plus immense",
+    "singular": "أَضْخَم",
+    "plural": "",
+    "synonym": "أَكْبَر حَجْمًا",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زَرَافَة",
+    "translation": "Girafe",
+    "singular": "زَرَافَة",
+    "plural": "زَرَافِيّ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "محبُوس",
+    "translation": "Emprisonné / Enfermé",
+    "singular": "محبُوس",
+    "plural": "محبُوسون",
+    "synonym": "مَسْجُون",
+    "opposite": "طَلِيق"
+  },
+  {
+    "type": "nom",
+    "arabic": "حَارِس",
+    "translation": "Gardien / Surveillant",
+    "singular": "حَارِس",
+    "plural": "حَارِسُون / حُرَّاس",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَسْر",
+    "translation": "Aigle",
+    "singular": "نَسْر",
+    "plural": "نُسُور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حِمَار",
+    "translation": "Âne",
+    "singular": "حِمَار",
+    "plural": "حَمِير",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَسَد",
+    "translation": "Lion",
+    "singular": "أَسَد",
+    "plural": "أُسُد - أُسُود",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَاب",
+    "translation": "Défense / Crocs",
+    "singular": "نَاب",
+    "plural": "أَنْيَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قَضِيب",
+    "translation": "Barre",
+    "singular": "قَضِيب",
+    "plural": "قُضْبَان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَائِفَة",
+    "translation": "Avec peur (f.)",
+    "singular": "خَائِفَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": "مُطْمَئِنَّة"
+  },
+  {
+    "type": "nom",
+    "arabic": "نَعَامَة",
+    "translation": "Autruche",
+    "singular": "نَعَامَة",
+    "plural": "نَعَام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَقْعَد",
+    "translation": "Siège / Place",
+    "singular": "مَقْعَد",
+    "plural": "مَقَاعِد",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غَزَال",
+    "translation": "Gazelle",
+    "singular": "غَزَال",
+    "plural": "غِزْلَان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ذَنَب",
+    "translation": "Queue",
+    "singular": "ذَنَب",
+    "plural": "ذِنَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَطَر",
+    "translation": "Danger",
+    "singular": "خَطَر",
+    "plural": "",
+    "synonym": "",
+    "opposite": "سَلامَة / أَمَان"
+  },
+  {
+    "type": "nom",
+    "arabic": "نَوْع",
+    "translation": "Type / Sorte",
+    "singular": "نَوْع",
+    "plural": "أَنْوَاع",
+    "synonym": "صِنْف",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سُلَحْفَاة",
+    "translation": "Tortue",
+    "singular": "سُلَحْفَاة",
+    "plural": "سَلَاحِف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زَاحِف",
+    "translation": "Animaux Rompants",
+    "singular": "زَاحِف",
+    "plural": "زَوَاحِف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَطِيئَة",
+    "translation": "Lente",
+    "singular": "بَطِيئَة",
+    "plural": "",
+    "synonym": "سَرِيعَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَسَافَة",
+    "translation": "Distance",
+    "singular": "مَسَافَة",
+    "plural": "مَسَافَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فِيل",
+    "translation": "Éléphant",
+    "singular": "فِيل",
+    "plural": "أَفْيَال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَمِر",
+    "translation": "Tigre",
+    "singular": "نَمِر",
+    "plural": "نُمُور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "السَّلَامَة",
+    "translation": "Sécurité",
+    "singular": "السَّلَامَة",
+    "plural": "",
+    "synonym": "أَمَان",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَوْلَة",
+    "translation": "Promenade",
+    "singular": "جَوْلَة",
+    "plural": "جَوْلَات",
+    "synonym": "رِحْلَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَقْر",
+    "translation": "Faucon",
+    "singular": "صَقْر",
+    "plural": "صُقور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دُبّ",
+    "translation": "Ours",
+    "singular": "دُبّ",
+    "plural": "دِبَبَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ثُعْبَان",
+    "translation": "Serpent",
+    "singular": "ثُعْبَان",
+    "plural": "ثعَابِين",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "يَد",
+    "translation": "Main",
+    "singular": "يَد",
+    "plural": "أَيْدِي",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَسْمُ الدُّخُول",
+    "translation": "Prix d'entrée",
+    "singular": "رَسْمُ الدُّخُول",
+    "plural": "رُسُومُ الدُّخُول",
+    "synonym": "ثَمَنُ التَّذْكِرَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قَفَص",
+    "translation": "Cage",
+    "singular": "قَفَص",
+    "plural": "أَقْفَاص",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تِمْسَاح",
+    "translation": "Crocodile",
+    "singular": "تِمْسَاح",
+    "plural": "تَمَاسِيح",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُفْتَرِس",
+    "translation": "Prédateur",
+    "singular": "مُفْتَرِس",
+    "plural": "مُفْتَرِسَات/مُفْتَرِسَة",
+    "synonym": "يَأْكُلُ اللَّحْم",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَاطِعَة",
+    "translation": "Brillant / Resplendissant",
+    "singular": "سَاطِعَة",
+    "plural": "",
+    "synonym": "ظَاهِرَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ضَبْع",
+    "translation": "Hyène",
+    "singular": "ضَبْع",
+    "plural": "ضِبَاع",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ضَحِكَ",
+    "translation": "Rire",
+    "past": "ضَحِكَ",
+    "present": "يَضْحَكُ",
+    "masdar": "ضَحِك",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَمَّ",
+    "translation": "Se terminer / Être fini",
+    "past": "تَمَّ",
+    "present": "يَتِمُّ",
+    "masdar": "تَمَام",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِطْمَأَنَّ",
+    "translation": "Se rassurer / Se calmer",
+    "past": "اِطْمَأَنَّ",
+    "present": "يَطْمَئِنُّ",
+    "masdar": "اِطْمِئْنَان",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَكْمَلَ",
+    "translation": "Compléter / Achever",
+    "past": "أَكْمَلَ",
+    "present": "يُكْمِلُ",
+    "masdar": "إِكْمَال",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَافَظَ",
+    "translation": "Garder / Protéger",
+    "past": "حَافَظَ",
+    "present": "يُحَافِظُ",
+    "masdar": "مُحَافَظَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَيْقَظَ",
+    "translation": "Réveiller",
+    "past": "أَيْقَظَ",
+    "present": "يُوقِظُ",
+    "masdar": "إِيقَاظ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَوَقَّفَ",
+    "translation": "S'arrêter",
+    "past": "تَوَقَّفَ",
+    "present": "يَتَوَقَّفُ",
+    "masdar": "تَوَقُّف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "زَقزَقَ",
+    "translation": "Piailler / Gazouiller",
+    "past": "زَقزَقَ",
+    "present": "يُزَقزِقُ",
+    "masdar": "زَقزَقَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِلْتَفَتَ",
+    "translation": "Se retourner / se tourner",
+    "past": "اِلْتَفَتَ",
+    "present": "يَلْتَفِتُ",
+    "masdar": "اِلْتِفَات",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَمْسَكَ",
+    "translation": "Tenir (fermement)",
+    "past": "أَمْسَكَ",
+    "present": "يُمْسِكُ",
+    "masdar": "إِمْسَاك",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "شَعَرَ",
+    "translation": "Ressentir / Avoir conscience de",
+    "past": "شَعَرَ",
+    "present": "يَشْعُرُ",
+    "masdar": "شُعُور",
+    "harfJarr": "بِ"
+  },
+  {
+    "type": "nom",
+    "arabic": "عُمق",
+    "translation": "Profondeur",
+    "singular": "عُمق",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حِصان",
+    "translation": "Cheval",
+    "singular": "حِصان",
+    "plural": "أَحصان / خُيول / أَحصِنة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَرصور",
+    "translation": "Cafard",
+    "singular": "صَرصور",
+    "plural": "صراصير",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَقرَب",
+    "translation": "Scorpion",
+    "singular": "عَقرَب",
+    "plural": "عَقارِب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَشَرَة",
+    "translation": "Insecte",
+    "singular": "حَشَرَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَجنَبي",
+    "translation": "Un Inconnu",
+    "singular": "أَجنَبي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَطير",
+    "translation": "Dangereux",
+    "singular": "خَطير",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غالي",
+    "translation": "Cher",
+    "singular": "غالي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِنزين",
+    "translation": "Essence",
+    "singular": "بِنزين",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِصباح",
+    "translation": "Lampe",
+    "singular": "مِصباح",
+    "plural": "مَصابيح",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دِفء",
+    "translation": "Chaleur/Tiède (ressenti)",
+    "singular": "دِفء",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رُسم",
+    "translation": "Les Frais",
+    "singular": "رُسم",
+    "plural": "رُسوم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "باهِرة",
+    "translation": "Eblouissant",
+    "singular": "باهِرة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زِيَارَةٌ",
+    "translation": "Visite",
+    "singular": "زِيَارَةٌ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَدِيقَةٌ",
+    "translation": "Jardin",
+    "singular": "حَدِيقَةٌ",
+    "plural": "حدائق",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لَوْن",
+    "translation": "Couleur",
+    "singular": "لَوْن",
+    "plural": "أَلْوَان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَباة",
+    "translation": "Herbe",
+    "singular": "نَباة",
+    "plural": "نَباتات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عاشِب",
+    "translation": "Herbivaure",
+    "singular": "عاشِب",
+    "plural": "عَواشيب",
+    "synonym": "",
+    "opposite": "لاحِم"
+  },
+  {
+    "type": "nom",
+    "arabic": "قِرْدٌ",
+    "translation": "Singe",
+    "singular": "قِرْدٌ",
+    "plural": "قُرود",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قَوِيّ",
+    "translation": "Fort",
+    "singular": "قَوِيّ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَرِيعٌ",
+    "translation": "Rapide",
+    "singular": "سَرِيعٌ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَبَان",
+    "translation": "Lâche",
+    "singular": "جَبَان",
+    "plural": "جُبناء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شُجَاع",
+    "translation": "Courageux",
+    "singular": "شُجَاع",
+    "plural": "شُجَعاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَيَوان",
+    "translation": "Animal",
+    "singular": "حَيَوان",
+    "plural": "حَيَوانات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رِحلَة",
+    "translation": "Voyage",
+    "singular": "رِحلَة",
+    "plural": "رِحلَاة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَاطَعَ",
+    "translation": "Briller",
+    "past": "سَاطَعَ",
+    "present": "يُسَاطِعَ",
+    "masdar": "",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "البَري",
+    "translation": "Terre Ferme",
+    "singular": "البَري",
+    "plural": "",
+    "synonym": "",
+    "opposite": "البَحري"
+  },
+  {
+    "type": "nom",
+    "arabic": "جِوار",
+    "translation": "A côté de",
+    "singular": "جِوار",
+    "plural": "",
+    "synonym": "جانِب",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَشارَ",
+    "translation": "Montrer / Indiquer",
+    "past": "أَشارَ",
+    "present": "يُشيرُ",
+    "masdar": "إشارَة",
+    "harfJarr": "إلى"
+  },
+  {
+    "type": "nom",
+    "arabic": "طائِر",
+    "translation": "Oiseaux",
+    "singular": "طائِر",
+    "plural": "طُيور",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لَحم",
+    "translation": "Viande",
+    "singular": "لَحم",
+    "plural": "لُحوم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "دَجاجُ الرومي",
+    "translation": "Dinde",
+    "singular": "دَجاجُ الرومي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ديك",
+    "translation": "Coq",
+    "singular": "ديك",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "طاوُوس",
+    "translation": "Le paon",
+    "singular": "طاوُوس",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ظُفر",
+    "translation": "Ongle / Griffe",
+    "singular": "ظُفر",
+    "plural": "أظفار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَحيدُ القرنِ",
+    "translation": "Rhino",
+    "singular": "وَحيدُ القرنِ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زَئير",
+    "translation": "Rugissement",
+    "singular": "زَئير",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَرَسَ",
+    "translation": "Garder / Surveiller",
+    "past": "حَرَسَ",
+    "present": "يَحرُسُ",
+    "masdar": "حِرَاسَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حافَظَ",
+    "translation": "Préserver",
+    "past": "حافَظَ",
+    "present": "يُحافظ",
+    "masdar": "محافظة",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ذِئْب",
+    "translation": "Loup",
+    "singular": "ذِئْب",
+    "plural": "ذِئاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَظاءَة",
+    "translation": "Gros lézard",
+    "singular": "عَظاءَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَزَغَة",
+    "translation": "Petit lézard",
+    "singular": "وَزَغَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فُقمة",
+    "translation": "Phoque",
+    "singular": "فُقمة",
+    "plural": "فُقُم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حِمارُالوَحشي",
+    "translation": "Zèbre",
+    "singular": "حِمارُالوَحشي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بقرُ الوَحشي",
+    "translation": "Gnou / Antilope",
+    "singular": "بقرُ الوَحشي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سامّ",
+    "translation": "Venimeux",
+    "singular": "سامّ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَعيدة",
+    "translation": "Contente",
+    "singular": "سَعيدة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَرِحَ",
+    "translation": "Être Heureux",
+    "past": "فَرِحَ",
+    "present": "يفرَحُ",
+    "masdar": "فَرح",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَجَمَ / هَاجَمَ",
+    "translation": "Attaquer",
+    "past": "هَجَمَ / هَاجَمَ",
+    "present": "يهجُمُ",
+    "masdar": "هُجوم",
+    "harfJarr": "على"
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَفَعَ",
+    "translation": "Défendre",
+    "past": "دَفَعَ",
+    "present": "يَدْفَعُ",
+    "masdar": "دَفْع",
+    "harfJarr": "عن"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِعْتَدى",
+    "translation": "Transgresser sur",
+    "past": "اِعْتَدى",
+    "present": "يَعْتَدي",
+    "masdar": "اِعْتَداء",
+    "harfJarr": "على"
+  },
+  {
+    "type": "nom",
+    "arabic": "أَسْمَر",
+    "translation": "Brun, Mat",
+    "singular": "أَسْمَر",
+    "plural": "سُمْر",
+    "synonym": "أَسْوَد",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَشْدُودُ القامَةِ",
+    "translation": "De grande taille, Bien droit",
+    "singular": "مَشْدُودُ القامَةِ",
+    "plural": "",
+    "synonym": "مُسْتَقيمُ الجِسْمِ",
+    "opposite": "مُنْحَني الظَّهْرِ"
+  },
+  {
+    "type": "nom",
+    "arabic": "مَتين",
+    "translation": "Fort, solide",
+    "singular": "مَتين",
+    "plural": "",
+    "synonym": "قَوِي",
+    "opposite": "ضَعيف"
+  },
+  {
+    "type": "nom",
+    "arabic": "عَضَلَة",
+    "translation": "Muscle",
+    "singular": "عَضَلَة",
+    "plural": "عَضَلات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَشَرَة",
+    "translation": "Peau, épiderme",
+    "singular": "بَشَرَة",
+    "plural": "بَشَرات",
+    "synonym": "الجِلْد",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بَطْن",
+    "translation": "Ventre",
+    "singular": "بَطْن",
+    "plural": "بُطون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بارِز",
+    "translation": "Proéminent, visible",
+    "singular": "بارِز",
+    "plural": "",
+    "synonym": "ظاهِر",
+    "opposite": "مُخْتَفي، مُسْتَتِر"
+  },
+  {
+    "type": "nom",
+    "arabic": "عَلامَة",
+    "translation": "Indication, marque, signe",
+    "singular": "عَلامَة",
+    "plural": "عَلامات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "كَتِف",
+    "translation": "Epaule",
+    "singular": "كَتِف",
+    "plural": "أَكْتاف",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ذِراع",
+    "translation": "Avant-bras",
+    "singular": "ذِراع",
+    "plural": "أَذْرُع",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَمين",
+    "translation": "Gros (corpulent)",
+    "singular": "سَمين",
+    "plural": "سِمان",
+    "synonym": "بَدين",
+    "opposite": "نَحيف"
+  },
+  {
+    "type": "nom",
+    "arabic": "قَوْس",
+    "translation": "Arc (arme), Parenthèse",
+    "singular": "قَوْس",
+    "plural": "أَقْواس",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زِرّ",
+    "translation": "Bouton",
+    "singular": "زِرّ",
+    "plural": "أَزْرار",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُتَعَطِّل",
+    "translation": "En panne",
+    "singular": "مُتَعَطِّل",
+    "plural": "",
+    "synonym": "لا يَعْمَل",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سُلَّم",
+    "translation": "Escalier",
+    "singular": "سُلَّم",
+    "plural": "سَلالِم",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَعْب",
+    "translation": "Difficile",
+    "singular": "صَعْب",
+    "plural": "",
+    "synonym": "",
+    "opposite": "سَهْل"
+  },
+  {
+    "type": "nom",
+    "arabic": "قَرَعَ",
+    "translation": "Toquer, frapper",
+    "singular": "قَرَعَ",
+    "plural": "",
+    "synonym": "دَقَّ",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُتَعَرِّق",
+    "translation": "En sueur, transpirant",
+    "singular": "مُتَعَرِّق",
+    "plural": "مُتَعَرِّقون",
+    "synonym": "يَنْزِلُ مِنْهُ العَرَقُ",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَمْرين",
+    "translation": "Exercice, entraînement",
+    "singular": "تَمْرين",
+    "plural": "تَمْرينات",
+    "synonym": "تَدْريب",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صالَةُ الأَلْعابِ",
+    "translation": "Salle de sport, de jeux",
+    "singular": "صالَةُ الأَلْعابِ",
+    "plural": "صالاتُ الأَلْعابِ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جائِزَة",
+    "translation": "Récompense",
+    "singular": "جائِزَة",
+    "plural": "جَوائِز",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَدْو",
+    "translation": "Course (fait de courir)",
+    "singular": "عَدْو",
+    "plural": "",
+    "synonym": "جَرْي",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رِياضَة",
+    "translation": "Sport",
+    "singular": "رِياضَة",
+    "plural": "رِياضات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَدا",
+    "translation": "Apparaître, sembler",
+    "past": "بَدا",
+    "present": "يَبْدو",
+    "masdar": "بُدُوّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ظَهَرَ",
+    "translation": "Apparaître, se montrer",
+    "past": "ظَهَرَ",
+    "present": "يَظْهَرُ",
+    "masdar": "ظُهور",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اخْتَفى",
+    "translation": "Se cacher, disparaître",
+    "past": "اخْتَفى",
+    "present": "يَخْتَفي",
+    "masdar": "اخْتِفاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "طَرَقَ",
+    "translation": "Toquer, frapper à la porte",
+    "past": "طَرَقَ",
+    "present": "يَطْرُقُ",
+    "masdar": "طَرْق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "لَهَثَ",
+    "translation": "Haleter, être essoufflé",
+    "past": "لَهَثَ",
+    "present": "يَلْهَثُ",
+    "masdar": "لَهْث",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَعِبَ",
+    "translation": "Etre fatigué",
+    "past": "تَعِبَ",
+    "present": "يَتْعَبُ",
+    "masdar": "تَعَب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَراحَ",
+    "translation": "Se reposer",
+    "past": "اِسْتَراحَ",
+    "present": "يَسْتَريحُ",
+    "masdar": "اِسْتِراحَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَخِرَ",
+    "translation": "Se moquer",
+    "past": "سَخِرَ",
+    "present": "يَسْخَرُ",
+    "masdar": "سُخْرِيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ذَلَّلَ",
+    "translation": "Soumettre, humilier",
+    "past": "ذَلَّلَ",
+    "present": "يُذَلِّلُ",
+    "masdar": "تَذْليل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "مارَسَ",
+    "translation": "Pratiquer",
+    "past": "مارَسَ",
+    "present": "يُمارِسُ",
+    "masdar": "مُمارَسَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "صارَعَ",
+    "translation": "Lutter",
+    "past": "صارَعَ",
+    "present": "يُصارِعُ",
+    "masdar": "مُصارَعَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قاتَلَ",
+    "translation": "Combattre",
+    "past": "قاتَلَ",
+    "present": "يُقاتِلُ",
+    "masdar": "مُقاتَلَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بارَزَ",
+    "translation": "Défier, affronter",
+    "past": "بارَزَ",
+    "present": "يُبارِزُ",
+    "masdar": "مُبارَزَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَوَّى",
+    "translation": "Rendre fort, fortifier",
+    "past": "قَوَّى",
+    "present": "يُقَوِّي",
+    "masdar": "تَقْوِيَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَضْعَفَ",
+    "translation": "Affaiblir",
+    "past": "أَضْعَفَ",
+    "present": "يُضْعِفُ",
+    "masdar": "إضْعاف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَسَّنَ",
+    "translation": "Améliorer, embellir",
+    "past": "حَسَّنَ",
+    "present": "يُحَسِّنُ",
+    "masdar": "تَحْسين",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَدا",
+    "translation": "Courir, Galoper",
+    "past": "عَدا",
+    "present": "يَعْدو",
+    "masdar": "عَدْو",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اخْتارَ",
+    "translation": "Choisir",
+    "past": "اخْتارَ",
+    "present": "يَخْتارُ",
+    "masdar": "اخْتِيار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "ناسَبَ",
+    "translation": "Convenir, correspondre",
+    "past": "ناسَبَ",
+    "present": "يُناسِبُ",
+    "masdar": "مُناسَبَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَثَبَ",
+    "translation": "Sauter",
+    "past": "وَثَبَ",
+    "present": "يَثِبُ",
+    "masdar": "وَثْب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَفَزَ",
+    "translation": "Sauter, bondir",
+    "past": "قَفَزَ",
+    "present": "يَقْفِزُ",
+    "masdar": "قَفْز",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَمى",
+    "translation": "Lancer, jeter",
+    "past": "رَمى",
+    "present": "يَرْمي",
+    "masdar": "رَمْي",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "جَدَّفَ",
+    "translation": "Ramer",
+    "past": "جَدَّفَ",
+    "present": "يُجَدِّفُ",
+    "masdar": "تَجْديف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "لاكَمَ",
+    "translation": "Boxer",
+    "past": "لاكَمَ",
+    "present": "يُلاكِمُ",
+    "masdar": "مُلاكَمَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَشَّطَ",
+    "translation": "Dynamiser, stimuler",
+    "past": "نَشَّطَ",
+    "present": "يُنَشِّطُ",
+    "masdar": "تَنْشيط",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَبْعَدَ",
+    "translation": "Eloigner",
+    "past": "أَبْعَدَ",
+    "present": "يُبْعِدُ",
+    "masdar": "إبْعاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَصَحَ",
+    "translation": "Conseiller",
+    "past": "نَصَحَ",
+    "present": "يَنْصَحُ",
+    "masdar": "نُصْح",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَديقان",
+    "translation": "deux amis",
+    "singular": "صَديقان",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَلامَةُ الاسْتِفْهامِ",
+    "translation": "point d'interrogation",
+    "singular": "عَلامَةُ الاسْتِفْهامِ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زِيارَة",
+    "translation": "Visite",
+    "singular": "زِيارَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "في وَقْتٍ آخَرَ",
+    "translation": "à un autre moment",
+    "singular": "في وَقْتٍ آخَرَ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لا تَتَكاسَلْ",
+    "translation": "ne sois pas paresseux",
+    "singular": "لا تَتَكاسَلْ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِرَشاقَةٍ",
+    "translation": "avec agilité",
+    "singular": "بِرَشاقَةٍ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِخِفَّةٍ",
+    "translation": "avec légèreté",
+    "singular": "بِخِفَّةٍ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِسُرْعَةٍ",
+    "translation": "avec rapidité",
+    "singular": "بِسُرْعَةٍ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قَرْع",
+    "translation": "un toquement / coup (à la porte)",
+    "singular": "قَرْع",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَأَخَّرَ",
+    "translation": "être en retard",
+    "singular": "تَأَخَّرَ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الصُّعود",
+    "translation": "la montée",
+    "singular": "الصُّعود",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَلْعابُ القُوى",
+    "translation": "Athlétisme",
+    "singular": "أَلْعابُ القُوى",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "العَدْو",
+    "translation": "La course, le sprint",
+    "singular": "العَدْو",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَمْيُ الرُّمْحِ",
+    "translation": "Lancer du javelot",
+    "singular": "رَمْيُ الرُّمْحِ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الوَثْب",
+    "translation": "le saut (Olympique)",
+    "singular": "الوَثْب",
+    "plural": "",
+    "synonym": "القَفْز",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "السِّباحَة",
+    "translation": "La natation, la nage",
+    "singular": "السِّباحَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رُكوبُ الخَيْلِ",
+    "translation": "L'équitation",
+    "singular": "رُكوبُ الخَيْلِ",
+    "plural": "",
+    "synonym": "الفُروسِيَّة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الرِّمايَة",
+    "translation": "Le tir",
+    "singular": "الرِّمايَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الجَدْف",
+    "translation": "Le kayak / la rame",
+    "singular": "الجَدْف",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَفْعُ الأَثْقالِ",
+    "translation": "L'haltérophilie",
+    "singular": "رَفْعُ الأَثْقالِ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "المُلاكَمَة",
+    "translation": "La boxe",
+    "singular": "المُلاكَمَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "المُصارَعَة",
+    "translation": "La lutte",
+    "singular": "المُصارَعَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الأَلْعابُ القِتالِيَّة",
+    "translation": "Les arts martiaux",
+    "singular": "الأَلْعابُ القِتالِيَّة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "المُبارَزَة",
+    "translation": "L'escrime",
+    "singular": "المُبارَزَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الكُونغ فُو",
+    "translation": "Le kung-fu",
+    "singular": "الكُونغ فُو",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَحيح",
+    "translation": "En bonne santé (bien portant)",
+    "singular": "صَحيح",
+    "plural": "",
+    "synonym": "سَليم",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَشيق",
+    "translation": "Agile",
+    "singular": "رَشيق",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَسبَح",
+    "translation": "Piscine",
+    "singular": "مَسبَح",
+    "plural": "مَسابِح",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَاجَعَ",
+    "translation": "Réviser .bis",
+    "past": "رَاجَعَ",
+    "present": "يُرَاجِعُ",
+    "masdar": "مُرَاجَعَةً",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَديث",
+    "translation": "Nouveau",
+    "singular": "حَديث",
+    "plural": "",
+    "synonym": "جَديد",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَصَلَ",
+    "translation": "Obtenir",
+    "past": "حَصَلَ",
+    "present": "يحصُل",
+    "masdar": "حُصول",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَبَسَّمَ",
+    "translation": "Sourire",
+    "past": "تَبَسَّمَ",
+    "present": "يَتَبَسَّم",
+    "masdar": "تَبَسُّمَ",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُزْدَحِم",
+    "translation": "Bondé / Encombré",
+    "singular": "مُزْدَحِم",
+    "plural": "مُزْدَحِمُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَوْن",
+    "translation": "Protection / Sauvegarde",
+    "singular": "صَوْن",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "طَيَّار",
+    "translation": "Pilote / Aviateur",
+    "singular": "طَيَّار",
+    "plural": "طَيَّارُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قِيَادَة",
+    "translation": "Commandement / Direction",
+    "singular": "قِيَادَة",
+    "plural": "قِيَادَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَدُوٌّ",
+    "translation": "Ennemi",
+    "singular": "عَدُوٌّ",
+    "plural": "أَعْدَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "التَّرَجِّي",
+    "translation": "L'espérance / Souhait",
+    "singular": "التَّرَجِّي",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "آلَام",
+    "translation": "Douleurs / Souffrances",
+    "singular": "آلَام",
+    "plural": "آلَام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَعَادَة",
+    "translation": "Bonheur / Félicité",
+    "singular": "سَعَادَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غَامِض",
+    "translation": "Obscur / Mystérieux",
+    "singular": "غَامِض",
+    "plural": "غَوَامِض",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عِمَارَة",
+    "translation": "Immeuble",
+    "singular": "عِمَارَة",
+    "plural": "عِمَارَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَاضِجَة",
+    "translation": "Mûr / Mature",
+    "singular": "نَاضِجَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْفَوْز",
+    "translation": "La victoire",
+    "singular": "الْفَوْز",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لِلغاية",
+    "translation": "À l'extrême",
+    "singular": "لِلغاية",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُسْتَحِيلُ الْحُدُوث",
+    "translation": "Impossible",
+    "singular": "مُسْتَحِيلُ الْحُدُوث",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زُمَّاج",
+    "translation": "Mouette",
+    "singular": "زُمَّاج",
+    "plural": "زَمَامِيج",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْبَيْضَة",
+    "translation": "L'œuf",
+    "singular": "الْبَيْضَة",
+    "plural": "الْبَيْضَات / البَيْض",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "غُلَام",
+    "translation": "Garçon / Jeune homme",
+    "singular": "غُلَام",
+    "plural": "غِلْمَان / غِلْمَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فُرْصَة",
+    "translation": "Occasion",
+    "singular": "فُرْصَة",
+    "plural": "فُرَص",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُحَامٍ",
+    "translation": "Avocat",
+    "singular": "مُحَامٍ",
+    "plural": "مُحَامُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَجَر",
+    "translation": "Pierre",
+    "singular": "حَجَر",
+    "plural": "أَحْجَار / حِجَارَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَجَاء",
+    "translation": "Espoir",
+    "singular": "رَجَاء",
+    "plural": "أَرْجِيَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "صَقِيع",
+    "translation": "Givre / Gelée blanche",
+    "singular": "صَقِيع",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "كَظَمَ",
+    "translation": "Ravaler / Contenir (colère)",
+    "past": "كَظَمَ",
+    "present": "يَكْظِمُ",
+    "masdar": "كَظْم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِنْبَغَى",
+    "translation": "Convenir / Falloir",
+    "past": "اِنْبَغَى",
+    "present": "يَنْبَغِي",
+    "masdar": "اِنْبِغَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَاوَلَ",
+    "translation": "Essayer de réussir",
+    "past": "حَاوَلَ",
+    "present": "يُحَاوِلُ",
+    "masdar": "مُحَاوَلَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَفَادَ",
+    "translation": "Faire profiter / Être utile",
+    "past": "أَفَادَ",
+    "present": "يُفِيدُ",
+    "masdar": "إِفَادَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَذَفَ",
+    "translation": "Supprimer / Effacer",
+    "past": "حَذَفَ",
+    "present": "يَحْذِفُ",
+    "masdar": "حَذْف",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِشْتَدَّ",
+    "translation": "S'intensifier / Se durcir",
+    "past": "اِشْتَدَّ",
+    "present": "يَشْتَدُّ",
+    "masdar": "اِشْتِدَاد",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِنْقَسَمَ",
+    "translation": "Se diviser / Se scinder",
+    "past": "اِنْقَسَمَ",
+    "present": "يَنْقَسِمُ",
+    "masdar": "اِنْقِسَام",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "آلَمَ",
+    "translation": "Causer de la douleur",
+    "past": "آلَمَ",
+    "present": "يُؤْلِمُ",
+    "masdar": "إِيلَام",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَهَيَّأَ",
+    "translation": "Se préparer / S'apprêter",
+    "past": "تَهَيَّأَ",
+    "present": "يَتَهَيَّأُ",
+    "masdar": "تَهَيُّؤ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَنَا",
+    "translation": "Se rapprocher",
+    "past": "دَنَا",
+    "present": "يَدْنُو",
+    "masdar": "دُنُوّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "زَعَمَ",
+    "translation": "Prétendre / Affirmer",
+    "past": "زَعَمَ",
+    "present": "يَزْعُمُ",
+    "masdar": "زَعْم",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَجَّلَ",
+    "translation": "Hâter / Accélérer",
+    "past": "عَجَّلَ",
+    "present": "يُعَجِّلُ",
+    "masdar": "تَعْجِيل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "نَهَى",
+    "translation": "Interdire / Défendre (de)",
+    "past": "نَهَى",
+    "present": "يَنْهَى",
+    "masdar": "نَهْي",
+    "harfJarr": "عَن"
+  },
+  {
+    "type": "verbe",
+    "arabic": "هَلَكَ",
+    "translation": "Périr / Être détruit",
+    "past": "هَلَكَ",
+    "present": "يَهْلِكُ",
+    "masdar": "هُلْك",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَدّ",
+    "translation": "Limite",
+    "singular": "حَدّ",
+    "plural": "حُدُودٌ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مَظهَر",
+    "translation": "Apparence",
+    "singular": "مَظهَر",
+    "plural": "مَظَاهِر",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْخِبْرَة",
+    "translation": "Expérience",
+    "singular": "الْخِبْرَة",
+    "plural": "خِبْرَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رُكْبَة",
+    "translation": "Genou",
+    "singular": "رُكْبَة",
+    "plural": "رُكَب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَخِيص",
+    "translation": "Bon marché",
+    "singular": "رَخِيص",
+    "plural": "رُخَصَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْمَسَاوِئ",
+    "translation": "Inconvénients / Choses néfastes",
+    "singular": "الْمَسَاوِئ",
+    "plural": "الْمَسَاوِئ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِضْرَب",
+    "translation": "Raquette",
+    "singular": "مِضْرَب",
+    "plural": "مَضَارِب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سِلَاح",
+    "translation": "Arme",
+    "singular": "سِلَاح",
+    "plural": "أَسْلِحَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُوافِق",
+    "translation": "Celui qui est d'accord",
+    "singular": "مُوافِق",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِرْكَة",
+    "translation": "Étang",
+    "singular": "بِرْكَة",
+    "plural": "بِرَك",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَادٍ",
+    "translation": "Club",
+    "singular": "نَادٍ",
+    "plural": "أَنْدِيَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ثِقَة",
+    "translation": "Assurance (en soi)",
+    "singular": "ثِقَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُرْتَفِع",
+    "translation": "Élevé / Haut",
+    "singular": "مُرْتَفِع",
+    "plural": "مُرْتَفِعَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الرَّقَبَة",
+    "translation": "Cou",
+    "singular": "الرَّقَبَة",
+    "plural": "رِقَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الدَّرَّاجَة",
+    "translation": "Vélo",
+    "singular": "الدَّرَّاجَة",
+    "plural": "دَرَّاجَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قُفَّاز",
+    "translation": "Gant",
+    "singular": "قُفَّاز",
+    "plural": "قُفَّازَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رُمْح",
+    "translation": "Lance",
+    "singular": "رُمْح",
+    "plural": "رِمَاح",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "قِرْش",
+    "translation": "Requin",
+    "singular": "قِرْش",
+    "plural": "قُرُوش",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "عَرِقَ",
+    "translation": "Transpirer",
+    "past": "عَرِقَ",
+    "present": "يَعْرَقُ",
+    "masdar": "عَرَق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَثْبَتَ",
+    "translation": "Maintenir / Confirmer",
+    "past": "أَثْبَتَ",
+    "present": "يُثْبِتُ",
+    "masdar": "إِثْبَات",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَخَيَّلَ",
+    "translation": "Imaginer",
+    "past": "تَخَيَّلَ",
+    "present": "يَتَخَيَّلُ",
+    "masdar": "تَخَيُّل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَفَّقَ",
+    "translation": "Faire réussir / Accorder le succès",
+    "past": "وَفَّقَ",
+    "present": "يُوَفِّقُ",
+    "masdar": "تَوْفِيق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَلْغَى",
+    "translation": "Annuler",
+    "past": "أَلْغَى",
+    "present": "يُلْغِي",
+    "masdar": "إِلْغَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَأَمَّلَ",
+    "translation": "Contempler",
+    "past": "تَأَمَّلَ",
+    "present": "يَتَأَمَّلُ",
+    "masdar": "تَأَمُّل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَجَوَّلَ",
+    "translation": "Se promener / Se balader",
+    "past": "تَجَوَّلَ",
+    "present": "يَتَجَوَّلُ",
+    "masdar": "تَجَوُّل",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَضِل",
+    "translation": "Musclé",
+    "singular": "عَضِل",
+    "plural": "أعضال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَروف / غَنَم",
+    "translation": "Mouton",
+    "singular": "خَروف / غَنَم",
+    "plural": "خِراف / أغنام",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جائع",
+    "translation": "Affamé",
+    "singular": "جائع",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "مَكَّنَ",
+    "translation": "Permettre",
+    "past": "مَكَّنَ",
+    "present": "يُمَكِّنُ",
+    "masdar": "تَمْكِين",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَقَط",
+    "translation": "Uniquement / Seulement",
+    "singular": "فَقَط",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِجِدٍّ",
+    "translation": "Avec serieux",
+    "singular": "بِجِدٍّ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "زُمرَة",
+    "translation": "Groupe / Bande",
+    "singular": "زُمرَة",
+    "plural": "زُمَرٌ",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَضِيَ",
+    "translation": "Agreer / Etre satisfait",
+    "past": "رَضِيَ",
+    "present": "يَرْضَى",
+    "masdar": "رِضًى",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَصَفَ",
+    "translation": "Décrire",
+    "past": "وَصَفَ",
+    "present": "يَصِفُ",
+    "masdar": "وَصْف/صِفَة",
+    "harfJarr": ""
+  }
+]
