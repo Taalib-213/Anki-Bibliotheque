@@ -1,0 +1,461 @@
+[
+  {
+    "type": "nom",
+    "arabic": "الْآن",
+    "translation": "Maintenant",
+    "singular": "الْآن",
+    "plural": "",
+    "synonym": "الْحِين",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "حَيَاة",
+    "translation": "Vie",
+    "singular": "حَيَاة",
+    "plural": "أَحْيَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُقَاوِّمَاتُ الْحَيَاة",
+    "translation": "Fondements / Éléments de la vie",
+    "singular": "مُقَاوِّمَاتُ الْحَيَاة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "ضَرُورِيَّاتُ الْحَيَاة",
+    "translation": "Nécessités de la vie",
+    "singular": "ضَرُورِيَّاتُ الْحَيَاة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "وَاقِع",
+    "translation": "Réel / Concret",
+    "singular": "وَاقِع",
+    "plural": "وَقَائِع",
+    "synonym": "حقيقي",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "عَفِيف",
+    "translation": "Chaste",
+    "singular": "عَفِيف",
+    "plural": "أَعِفَّاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "خَطَأ",
+    "translation": "Erreur / Faute",
+    "singular": "خَطَأ",
+    "plural": "أَخْطَاء",
+    "synonym": "غَلْطَة",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَثَاث",
+    "translation": "Meubles / Mobilier",
+    "singular": "أَثَاث",
+    "plural": "أُثُث",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَمْوَال",
+    "translation": "Richesse / Bien",
+    "singular": "مال",
+    "plural": "أَمْوَال",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُسَوَّد",
+    "translation": "Brouillon",
+    "singular": "مُسَوَّد",
+    "plural": "مُسَوَّدَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَارِد",
+    "translation": "Égaré / Distrait",
+    "singular": "شَارِد",
+    "plural": "شَارِدُون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الذِّهْن",
+    "translation": "L'esprit",
+    "singular": "الذِّهْن",
+    "plural": "أَذْهَان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "رَأْيٌ فِي",
+    "translation": "Une opinion sur",
+    "singular": "رَأْيٌ فِي",
+    "plural": "آرَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْحَيَاء",
+    "translation": "La pudeur",
+    "singular": "الْحَيَاء",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الْأَوَان",
+    "translation": "Le moment / L'instant opportun",
+    "singular": "الْأَوَان",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "لِحْيَة",
+    "translation": "Barbe",
+    "singular": "لِحْيَة",
+    "plural": "لِحًى",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جِلْسَة",
+    "translation": "Une façon de s'asseoir",
+    "singular": "جِلْسَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَلْسَة",
+    "translation": "Une seule assise / Séance",
+    "singular": "جَلْسَة",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جُلُوس",
+    "translation": "Le fait de s'asseoir",
+    "singular": "جُلُوس",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَسَاس",
+    "translation": "Base / Fondement",
+    "singular": "أَسَاس",
+    "plural": "أُسُس",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "الشَّابّ",
+    "translation": "Jeune",
+    "singular": "الشَّابّ",
+    "plural": "الشَّبَاب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُهْتَمّ بِ",
+    "translation": "Intéressé par / Prenant en considération",
+    "singular": "مُهْتَمّ بِ",
+    "plural": "مُهْتَمُّون",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَقَّة",
+    "translation": "Appartement",
+    "singular": "شَقَّة",
+    "plural": "شُقَق",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "نَجَاح",
+    "translation": "Réussite",
+    "singular": "نَجَاح",
+    "plural": "نَجَاحَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "بِصَدَدِ",
+    "translation": "Sur le point de / En train de",
+    "singular": "بِصَدَدٍ",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَبِيل",
+    "translation": "Voie / Chemin",
+    "singular": "سَبِيل",
+    "plural": "سُبُل",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "فَصِيح",
+    "translation": "Éloquent",
+    "singular": "فَصِيح",
+    "plural": "فُصَحَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَقْصَى",
+    "translation": "Le plus lointain / Maximal",
+    "singular": "أَقْصَى",
+    "plural": "أَقَاصِي",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "جَهْد",
+    "translation": "Effort / Énergie / Vigueur",
+    "singular": "جَهْد",
+    "plural": "جُهُود",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَقْصَى جَهْدِي",
+    "translation": "Le plus possible / Au maximum",
+    "singular": "أَقْصَى جَهْد",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَهَلَّلَ",
+    "translation": "S'illuminer / Rayonner de joie",
+    "past": "تَهَلَّلَ",
+    "present": "يَتَهَلَّلُ",
+    "masdar": "تَهَلُّل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَلَأْلَأَ",
+    "translation": "Briller / Scintiller",
+    "past": "تَلَأْلَأَ",
+    "present": "يَتَلَأْلَأُ",
+    "masdar": "تَلَأْلُؤ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَشْرَقَ",
+    "translation": "Briller / Rayonner",
+    "past": "أَشْرَقَ",
+    "present": "يُشْرِقُ",
+    "masdar": "إِشْرَاق",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَخْطَأَ",
+    "translation": "Fauter / Faire une erreur",
+    "past": "أَخْطَأَ",
+    "present": "يُخْطِئُ",
+    "masdar": "إِخْطَاء",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "خَفَضَ",
+    "translation": "Baisser / Abaisser",
+    "past": "خَفَضَ",
+    "present": "يَخْفِضُ",
+    "masdar": "خَفْض",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَمَرَّجَ",
+    "translation": "Se mélanger / S'agiter",
+    "past": "تَمَرَّجَ",
+    "present": "يَتَمَرَّجُ",
+    "masdar": "تَمَرُّج",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "شَرَدَ",
+    "translation": "Fuir / S'égarer",
+    "past": "شَرَدَ",
+    "present": "يَشْرُدُ",
+    "masdar": "شُرُود",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَحَرَّى",
+    "translation": "Chercher / Investiguer (Intangible)",
+    "past": "تَحَرَّى",
+    "present": "يَتَحَرَّى",
+    "masdar": "تَحَرٍّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَلَغَ",
+    "translation": "Atteindre (la puberté)",
+    "past": "بَلَغَ",
+    "present": "يَبْلُغُ",
+    "masdar": "بُلُوغ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "حَانَ",
+    "translation": "Le moment est arrivé",
+    "past": "حَانَ",
+    "present": "يَحِينُ",
+    "masdar": "حِين",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَضَّ",
+    "translation": "Baisser / Faire descendre",
+    "past": "رَضَّ",
+    "present": "يَرُضُّ",
+    "masdar": "رَضّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "سَمِعَ",
+    "translation": "Entendre",
+    "past": "سَمِعَ",
+    "present": "يَسْمَعُ",
+    "masdar": "سَمَاع",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِعْتَدَلَ",
+    "translation": "Se mettre debout / Se redresser",
+    "past": "اِعْتَدَلَ",
+    "present": "يَعْتَدِلُ",
+    "masdar": "اِعْتِدَال",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "وَدَّ",
+    "translation": "Aimer / Souhaiter",
+    "past": "وَدَّ",
+    "present": "يَوَدُّ",
+    "masdar": "وُدّ",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "بَذَلَ",
+    "translation": "Dépenser (une chose) / Déployer (un effort)",
+    "past": "بَذَلَ",
+    "present": "يَبْذُلُ",
+    "masdar": "بَذْل",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَدَرَ",
+    "translation": "Pouvoir / Être capable",
+    "past": "قَدَرَ",
+    "present": "يَقْدِرُ",
+    "masdar": "قُدْرَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَدَّرَ",
+    "translation": "Décréter / Estimer",
+    "past": "قَدَّرَ",
+    "present": "يُقَدِّرُ",
+    "masdar": "تَقْدِير",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "رَغِبَ",
+    "translation": "Désirer / Souhaiter (de)",
+    "past": "رَغِبَ",
+    "present": "يَرْغَبُ",
+    "masdar": "رَغْبَة",
+    "harfJarr": "فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَكَّرَ",
+    "translation": "Réfléchir à",
+    "past": "فَكَّرَ",
+    "present": "يُفَكِّرُ",
+    "masdar": "تَفْكِير",
+    "harfJarr": "فِي"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِحْتَاجَ",
+    "translation": "Avoir besoin de",
+    "past": "اِحْتَاجَ",
+    "present": "يَحْتَاجُ",
+    "masdar": "اِحْتِيَاج",
+    "harfJarr": "إِلَى"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَعَاهَدَ",
+    "translation": "Donner son engagement / Se promettre mutuellement",
+    "past": "تَعَاهَدَ",
+    "present": "يَتَعَاهَدُ",
+    "masdar": "تَعَاهُد",
+    "harfJarr": "عَلَى"
+  }
+]
