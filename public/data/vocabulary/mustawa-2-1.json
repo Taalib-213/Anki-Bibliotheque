@@ -253,18 +253,18 @@
   },
   {
     "type": "nom",
-    "arabic": "جَهْد",
+    "arabic": "جُهْدِ",
     "translation": "Effort / Énergie / Vigueur",
-    "singular": "جَهْد",
+    "singular": "جُهْدِ",
     "plural": "جُهُود",
     "synonym": "",
     "opposite": ""
   },
   {
     "type": "nom",
-    "arabic": "أَقْصَى جَهْدِ",
+    "arabic": "أَقْصَى جُهْدِ",
     "translation": "Le plus possible / Au maximum",
-    "singular": "أَقْصَى جَهْد",
+    "singular": "أَقْصَى جُهْد",
     "plural": "",
     "synonym": "",
     "opposite": ""
