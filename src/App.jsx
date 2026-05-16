@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
+import Quiz, { QuizFloatingButton } from './Quiz.jsx'
 
 const PAGE_SIZE = 50
 
@@ -42,6 +43,9 @@ export default function App() {
   // Statut de chargement par cours { [courseId]: 'loading' | 'error' | 'ok' }
   const [vocabStatus, setVocabStatus] = useState({})
 
+  // État pour le quizz
+  const [quizOpen, setQuizOpen] = useState(false)
+
   // 1. Charger courses.json au démarrage
   useEffect(() => {
     fetch('/data/courses.json')
@@ -81,6 +85,25 @@ export default function App() {
     })
   }, [courses, debouncedGlobal, activeCategory])
 
+  // Fonction réutilisable : charge le vocabulaire d'un cours (et met en cache).
+  // Utilisée à la fois par toggleCourse et par le composant Quiz.
+  const loadVocab = useCallback(async (course) => {
+    if (vocabCache[course.id]) return vocabCache[course.id]
+    setVocabStatus(s => ({ ...s, [course.id]: 'loading' }))
+    try {
+      const res = await fetch(course.vocabularyFile)
+      if (!res.ok) throw new Error('Fichier vocabulaire introuvable')
+      const data = await res.json()
+      setVocabCache(c => ({ ...c, [course.id]: data }))
+      setVocabStatus(s => ({ ...s, [course.id]: 'ok' }))
+      return data
+    } catch (err) {
+      console.error(err)
+      setVocabStatus(s => ({ ...s, [course.id]: 'error' }))
+      throw err
+    }
+  }, [vocabCache])
+
   // 4. Ouvrir / fermer un tableau
   const toggleCourse = useCallback(async (course) => {
     // Refermer si déjà ouvert
@@ -91,19 +114,12 @@ export default function App() {
     setOpenCourseId(course.id)
     // Déjà chargé ? on s'arrête
     if (vocabCache[course.id]) return
-
-    setVocabStatus(s => ({ ...s, [course.id]: 'loading' }))
     try {
-      const res = await fetch(course.vocabularyFile)
-      if (!res.ok) throw new Error('Fichier vocabulaire introuvable')
-      const data = await res.json()
-      setVocabCache(c => ({ ...c, [course.id]: data }))
-      setVocabStatus(s => ({ ...s, [course.id]: 'ok' }))
-    } catch (err) {
-      console.error(err)
-      setVocabStatus(s => ({ ...s, [course.id]: 'error' }))
+      await loadVocab(course)
+    } catch {
+      /* l'état d'erreur est déjà géré dans loadVocab */
     }
-  }, [openCourseId, vocabCache])
+  }, [openCourseId, vocabCache, loadVocab])
 
   return (
     <div className="app">
@@ -141,6 +157,19 @@ export default function App() {
       <footer className="footer">
         <p>Bibliothèque Anki — vocabulaire arabe</p>
       </footer>
+
+      {/* Bouton flottant et modale Quizz */}
+      {!quizOpen && !loadingCourses && !errorCourses && courses.length > 0 && (
+        <QuizFloatingButton onClick={() => setQuizOpen(true)} />
+      )}
+      {quizOpen && (
+        <Quiz
+          courses={courses}
+          vocabCache={vocabCache}
+          loadVocab={loadVocab}
+          onClose={() => setQuizOpen(false)}
+        />
+      )}
     </div>
   )
 }
