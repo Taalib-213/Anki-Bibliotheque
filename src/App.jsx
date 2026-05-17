@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import Quiz, { QuizFloatingButton } from './Quiz.jsx'
 
 const PAGE_SIZE = 50
@@ -26,6 +26,171 @@ function useDebounced(value, delay = 200) {
     return () => clearTimeout(t)
   }, [value, delay])
   return v
+}
+
+/* ============================================================
+   useIsTouch — détecte si l'utilisateur est sur un appareil tactile
+   (pas de souris hover). Utilisé pour basculer entre hover (desktop)
+   et tap (mobile/tablette) sur le NoteBadge.
+   ============================================================ */
+function useIsTouch() {
+  const [isTouch, setIsTouch] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return window.matchMedia?.('(hover: none)').matches ?? false
+  })
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const mq = window.matchMedia('(hover: none)')
+    const handler = (e) => setIsTouch(e.matches)
+    if (mq.addEventListener) {
+      mq.addEventListener('change', handler)
+      return () => mq.removeEventListener('change', handler)
+    } else if (mq.addListener) {
+      // Safari ancien
+      mq.addListener(handler)
+      return () => mq.removeListener(handler)
+    }
+  }, [])
+  return isTouch
+}
+
+/* ============================================================
+   NoteBadge — petite icône info qui apparaît à côté d'un mot
+   ayant une note. Pour exposer la note :
+   - Desktop (hover) : on survole la cellule entière du tableau
+     OU la carte mobile → la bulle apparaît.
+   - Mobile/touch    : on tape sur l'icône → la bulle apparaît,
+     tape ailleurs ou Échap pour fermer.
+
+   Implémentation : la bulle est en `position: fixed` calculée à
+   l'ouverture, pour ne pas être clippée par les overflow:hidden
+   ou auto des conteneurs parents (notamment .table-wrapper).
+   ============================================================ */
+function NoteBadge({ note, hoverTargetRef }) {
+  const [open, setOpen] = useState(false)
+  const [pos, setPos] = useState({ left: 0, top: 0, placement: 'top' })
+  const iconRef = useRef(null)
+  const bubbleRef = useRef(null)
+  const isTouch = useIsTouch()
+
+  // Recalcule la position de la bulle par rapport à l'icône
+  const updatePosition = useCallback(() => {
+    const icon = iconRef.current
+    const bubble = bubbleRef.current
+    if (!icon || !bubble) return
+    const r = icon.getBoundingClientRect()
+    const bw = bubble.offsetWidth
+    const bh = bubble.offsetHeight
+    const margin = 8
+    // Centrer horizontalement sur l'icône, mais clamper aux bords du viewport
+    let left = r.left + r.width / 2 - bw / 2
+    left = Math.max(margin, Math.min(left, window.innerWidth - bw - margin))
+    // Placer au-dessus par défaut ; sinon en dessous si pas la place
+    let top = r.top - bh - margin
+    let placement = 'top'
+    if (top < margin) {
+      top = r.bottom + margin
+      placement = 'bottom'
+    }
+    setPos({ left, top, placement })
+  }, [])
+
+  // Repositionner à l'ouverture et à chaque scroll/resize tant que c'est ouvert
+  useEffect(() => {
+    if (!open) return
+    // Premier calcul après que la bulle ait été montée
+    updatePosition()
+    const handler = () => updatePosition()
+    window.addEventListener('scroll', handler, true)
+    window.addEventListener('resize', handler)
+    return () => {
+      window.removeEventListener('scroll', handler, true)
+      window.removeEventListener('resize', handler)
+    }
+  }, [open, updatePosition])
+
+  // Fermer si on tape/clique ailleurs (mobile) ou si Échap
+  useEffect(() => {
+    if (!open) return
+    function onDocPointer(e) {
+      const inIcon = iconRef.current?.contains(e.target)
+      const inBubble = bubbleRef.current?.contains(e.target)
+      if (!inIcon && !inBubble) setOpen(false)
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    document.addEventListener('pointerdown', onDocPointer)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onDocPointer)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  // Survol du conteneur cible (rangée du tableau / carte mobile) :
+  // ouvre la bulle UNIQUEMENT sur desktop (hover possible).
+  useEffect(() => {
+    if (isTouch) return
+    const target = hoverTargetRef?.current
+    if (!target) return
+    const onEnter = () => setOpen(true)
+    const onLeave = (e) => {
+      // Ne pas fermer si on entre dans la bulle (qui est en position fixed,
+      // donc hors du target). En pratique, comme on revient sur la bulle via
+      // un mouvement vers le haut, on tolère un petit délai.
+      // → on ferme directement : la bulle reste affichée tant que le pointer
+      // est sur la cellule. Si l'utilisateur veut interagir avec la bulle,
+      // il doit la garder ouverte via tap (mode touch).
+      setOpen(false)
+    }
+    target.addEventListener('mouseenter', onEnter)
+    target.addEventListener('mouseleave', onLeave)
+    return () => {
+      target.removeEventListener('mouseenter', onEnter)
+      target.removeEventListener('mouseleave', onLeave)
+    }
+  }, [hoverTargetRef, isTouch])
+
+  if (!note || !String(note).trim()) return null
+
+  return (
+    <>
+      <button
+        ref={iconRef}
+        type="button"
+        className="note-badge"
+        aria-label="Voir la note de ce mot"
+        aria-expanded={open}
+        onClick={(e) => {
+          e.stopPropagation()
+          setOpen(o => !o)
+        }}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault()
+            setOpen(o => !o)
+          }
+        }}
+      >
+        <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <circle cx="10" cy="10" r="8.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+          <circle cx="10" cy="6"  r="1.1" fill="currentColor" />
+          <rect   x="9.05" y="8.6" width="1.9" height="6.4" rx="0.95" fill="currentColor" />
+        </svg>
+      </button>
+      {open && (
+        <span
+          ref={bubbleRef}
+          className={`note-bubble note-bubble-${pos.placement}`}
+          role="tooltip"
+          style={{ left: `${pos.left}px`, top: `${pos.top}px` }}
+        >
+          {note}
+        </span>
+      )}
+    </>
+  )
 }
 
 export default function App() {
@@ -264,7 +429,8 @@ function VocabTable({ vocab }) {
       // Champs cherchables (on ignore les vides)
       const fields = [
         row.arabic, row.translation, row.past, row.present, row.masdar,
-        row.singular, row.plural, row.synonym, row.opposite, row.harfJarr
+        row.singular, row.plural, row.synonym, row.opposite, row.harfJarr,
+        row.note
       ]
       return fields.some(f => f && normalize(f).includes(q))
     })
@@ -356,10 +522,16 @@ function detailsFor(row) {
 
 function VocabRow({ row }) {
   const details = detailsFor(row)
+  const rowRef = useRef(null)
   return (
-    <tr>
+    <tr ref={rowRef}>
       <td><span className={`type-pill type-${row.type}`}>{row.type}</span></td>
-      <td><span className="arabic-text">{row.arabic}</span></td>
+      <td>
+        <span className="arabic-with-note">
+          <span className="arabic-text">{row.arabic}</span>
+          <NoteBadge note={row.note} hoverTargetRef={rowRef} />
+        </span>
+      </td>
       <td className="translation-cell">{row.translation}</td>
       <td>
         <div className="detail-grid">
@@ -379,10 +551,14 @@ function VocabRow({ row }) {
 
 function VocabMobileCard({ row }) {
   const details = detailsFor(row)
+  const cardRef = useRef(null)
   return (
-    <div className="vocab-mobile-card">
+    <div className="vocab-mobile-card" ref={cardRef}>
       <div className="vmc-head">
-        <span className="arabic-text">{row.arabic}</span>
+        <span className="arabic-with-note">
+          <span className="arabic-text">{row.arabic}</span>
+          <NoteBadge note={row.note} hoverTargetRef={cardRef} />
+        </span>
         <span className={`type-pill type-${row.type}`}>{row.type}</span>
       </div>
       <div className="vmc-translation">{row.translation}</div>

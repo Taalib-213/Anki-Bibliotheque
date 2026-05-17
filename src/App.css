@@ -468,6 +468,103 @@ main.container {
 }
 
 /* ============================================================
+   ====================== NOTE BADGE ==========================
+   Petite icône "i" qui s'affiche à côté d'un mot ayant un champ
+   `note`. Bulle au survol de la rangée entière (desktop) ou au
+   tap sur l'icône (mobile). La bulle est en position fixed pour
+   ne pas être clippée par les overflow:auto/hidden des parents
+   (notamment .table-wrapper).
+   ============================================================ */
+
+/* Conteneur du mot arabe + icône : aligne sans casser la mise en page. */
+.arabic-with-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* L'icône cliquable */
+.note-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--gold-soft);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: transform 0.15s ease, color 0.15s ease, background 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+}
+
+.note-badge svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  /* Petite pulsation discrète pour signaler qu'il y a une info */
+  animation: noteBadgePulse 2.4s ease-in-out infinite;
+}
+
+.note-badge:hover,
+.note-badge:focus-visible {
+  outline: none;
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.12);
+  transform: scale(1.1);
+}
+
+.note-badge:focus-visible {
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.4);
+}
+
+@keyframes noteBadgePulse {
+  0%, 100% { opacity: 0.85; }
+  50%      { opacity: 1; transform: scale(1.04); }
+}
+
+/* Indique visuellement qu'une rangée du tableau possède une note
+   (la rangée entière prend un léger surlignement doré au hover). */
+.vocab-table tbody tr:has(.note-badge):hover {
+  background: rgba(212, 175, 55, 0.05);
+}
+.vocab-mobile-card:has(.note-badge):hover {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+/* La bulle d'information : position FIXED, le JS calcule left/top
+   pour la centrer sur l'icône et la basculer en bas si pas de place. */
+.note-bubble {
+  position: fixed;
+  width: max-content;
+  max-width: min(320px, calc(100vw - 24px));
+  padding: 10px 14px;
+  background: rgba(10, 22, 40, 0.97);
+  color: var(--text);
+  border: 1px solid var(--glass-border-strong);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  animation: noteBubbleIn 0.18s ease-out;
+  pointer-events: auto;
+}
+
+@keyframes noteBubbleIn {
+  from { opacity: 0; transform: translateY(2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
    ========================= QUIZZ ============================
    ============================================================ */
 
@@ -739,6 +836,67 @@ main.container {
   background: rgba(212, 175, 55, 0.15);
 }
 
+/* Sélecteur de mode (QCM / Question-Réponse) */
+.quiz-mode-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-sm);
+}
+
+.quiz-mode-switch {
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.quiz-mode-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.quiz-mode-btn:hover:not(:disabled):not(.active) {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.quiz-mode-btn.active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(16, 185, 129, 0.2));
+  color: var(--text);
+  font-weight: 600;
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.2) inset;
+}
+
+.quiz-mode-btn:disabled { cursor: not-allowed; opacity: 0.5; }
+
+.quiz-progress {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.quiz-progress-flag {
+  color: var(--emerald-soft);
+  font-weight: 600;
+}
+
 .quiz-warning {
   margin-bottom: 14px;
   padding: 10px 14px;
@@ -757,6 +915,10 @@ main.container {
   gap: 14px;
   padding: 48px 16px;
   color: var(--text-muted);
+}
+
+.quiz-loading-inline {
+  padding: 24px 16px;
 }
 
 .quiz-spinner {
@@ -793,6 +955,35 @@ main.container {
   from { opacity: 0; transform: translateY(-6px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* Badge de catégorie au-dessus du prompt */
+.quiz-badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 14px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  background: rgba(255, 255, 255, 0.04);
+  animation: quizBadgeIn 0.35s ease-out;
+}
+
+@keyframes quizBadgeIn {
+  from { opacity: 0; transform: scale(0.85); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Couleurs par catégorie (cohérentes avec le reste du site) */
+.quiz-badge-singular              { color: var(--emerald-soft); }
+.quiz-badge-plural                { color: #7dd3fc; }
+.quiz-badge-past                  { color: var(--gold-soft); }
+.quiz-badge-present               { color: #fda4af; }
+.quiz-badge-masdar                { color: #c4b5fd; }
+.quiz-badge-arabicFromVerbTranslation { color: #fcd34d; }
+.quiz-badge-frenchFromArabic      { color: #f9a8d4; }
+.quiz-badge-harfJarr              { color: #5eead4; }
 
 .quiz-prompt-label {
   font-size: 0.78rem;
@@ -857,6 +1048,20 @@ main.container {
   text-align: center;
 }
 
+/* Options textuelles françaises : police plus petite et wrapping autorisé,
+   parce que les traductions peuvent être longues (ex : "Une seule assise / Séance"). */
+.quiz-option.is-french {
+  padding: 12px 14px;
+  line-height: 1.3;
+}
+.quiz-option.is-french span {
+  font-size: 0.95rem;
+  text-align: center;
+  display: block;
+  word-break: break-word;
+  hyphens: auto;
+}
+
 /* États après réponse */
 .quiz-option.is-correct {
   background: rgba(16, 185, 129, 0.22);
@@ -899,6 +1104,219 @@ main.container {
   80% { transform: translateX(4px); }
 }
 
+/* ============================================================
+   Mode "Question / Réponse" — saisie libre + auto-complétion
+   ============================================================ */
+.quiz-typed-zone {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: quizPromptIn 0.35s ease-out;
+}
+
+.quiz-typed-input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.quiz-typed-input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 16px;
+  font-size: 1.4rem;
+  text-align: right;
+  background: rgba(15, 30, 45, 0.6);
+  color: var(--text);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.quiz-typed-input::placeholder {
+  color: var(--text-dim);
+  opacity: 0.6;
+}
+
+.quiz-typed-input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+}
+
+.quiz-typed-input.is-correct {
+  background: rgba(16, 185, 129, 0.18);
+  border-color: var(--emerald);
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.35);
+  animation: quizCorrectPulse 0.9s ease-out;
+}
+
+.quiz-typed-input.is-wrong {
+  background: rgba(220, 38, 38, 0.18);
+  border-color: #ef4444;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.4);
+  animation: quizWrongShake 0.5s ease-in-out;
+}
+
+.quiz-typed-input:disabled {
+  cursor: default;
+  opacity: 0.95;
+}
+
+.quiz-typed-submit {
+  white-space: nowrap;
+  padding: 0 22px;
+  align-self: stretch;
+}
+
+/* Liste de suggestions */
+.quiz-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  max-height: 280px;
+  overflow-y: auto;
+  background: rgba(8, 18, 30, 0.95);
+  border: 1px solid var(--glass-border-strong);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  animation: quizSuggIn 0.18s ease-out;
+}
+
+@keyframes quizSuggIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.quiz-suggestion {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: right;
+  color: var(--text);
+  transition: background 0.12s, color 0.12s;
+}
+
+.quiz-suggestion .arabic-text {
+  font-size: 1.25rem;
+}
+
+.quiz-suggestion:hover,
+.quiz-suggestion.highlighted {
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--gold-soft);
+}
+
+/* Feedback après réponse en mode typed */
+.quiz-typed-feedback {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  animation: quizPromptIn 0.3s ease-out;
+}
+
+.quiz-typed-feedback.is-correct {
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.45);
+  color: var(--emerald-soft);
+  font-weight: 600;
+}
+
+.quiz-typed-feedback.is-wrong {
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: var(--text);
+}
+
+.quiz-typed-label {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quiz-typed-answer {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5eead4;
+  /* Animation d'agrandissement / rapetissement sur la bonne réponse */
+  animation: quizCorrectPulse 0.9s ease-out;
+}
+
+/* ============================================================
+   Note pédagogique — pop-up centrée au milieu de la modale du
+   quizz, affichée après l'animation rouge/verte (~700 ms).
+   Reste visible jusqu'au passage automatique à la question suivante.
+   ============================================================ */
+.quiz-note-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(5, 12, 22, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  pointer-events: none; /* on ne veut pas que ça bloque, le passage est auto */
+  animation: quizNoteOverlayIn 0.25s ease-out;
+}
+
+@keyframes quizNoteOverlayIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.quiz-note-popup {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  max-width: 480px;
+  padding: 22px 24px;
+  background:
+    radial-gradient(ellipse at top left, rgba(212, 175, 55, 0.12), transparent 70%),
+    linear-gradient(135deg, rgba(20, 30, 45, 0.98) 0%, rgba(25, 40, 35, 0.98) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  animation: quizNotePopupIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: auto;
+}
+
+@keyframes quizNotePopupIn {
+  from { opacity: 0; transform: scale(0.92) translateY(8px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.quiz-note-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--gold);
+  margin-top: 2px;
+}
+
+.quiz-note-text {
+  margin: 0;
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+
 /* ---- Responsive quizz ---- */
 @media (max-width: 720px) {
   .quiz-modal {
@@ -916,6 +1334,18 @@ main.container {
     padding: 12px 18px;
     font-size: 0.95rem;
   }
+  .quiz-typed-input-row {
+    flex-direction: column;
+  }
+  .quiz-typed-submit {
+    width: 100%;
+    padding: 12px;
+  }
+  .quiz-typed-input { font-size: 1.25rem; }
+  .quiz-progress { margin-left: 0; width: 100%; }
+  .quiz-note-popup { padding: 18px 20px; gap: 12px; }
+  .quiz-note-text { font-size: 0.95rem; }
+  .quiz-note-icon { width: 32px; height: 32px; }
 }
 
 @media (max-width: 480px) {

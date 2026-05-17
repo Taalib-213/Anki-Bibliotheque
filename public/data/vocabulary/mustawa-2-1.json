@@ -2,10 +2,10 @@
   {
     "type": "nom",
     "arabic": "الْآن",
-    "translation": "Maintenant",
+    "translation": "Maintenant / Le temps",
     "singular": "الْآن",
     "plural": "",
-    "synonym": "الْحِين",
+    "synonym": "الْحِين / الْأَوَان",
     "opposite": ""
   },
   {
@@ -104,7 +104,7 @@
     "translation": "L'esprit",
     "singular": "الذِّهْن",
     "plural": "أَذْهَان",
-    "synonym": "",
+    "synonym": "بال",
     "opposite": ""
   },
   {
@@ -121,15 +121,6 @@
     "arabic": "الْحَيَاء",
     "translation": "La pudeur",
     "singular": "الْحَيَاء",
-    "plural": "",
-    "synonym": "",
-    "opposite": ""
-  },
-  {
-    "type": "nom",
-    "arabic": "الْأَوَان",
-    "translation": "Le moment / L'instant opportun",
-    "singular": "الْأَوَان",
     "plural": "",
     "synonym": "",
     "opposite": ""
