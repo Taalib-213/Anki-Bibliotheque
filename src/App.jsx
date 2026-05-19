@@ -1,5 +1,17 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import Quiz, { QuizFloatingButton } from './Quiz.jsx'
+
+/* Application du thème AU PLUS TÔT, avant le premier rendu React, pour
+   éviter qu'on voie brièvement le thème par défaut avant celui choisi. */
+if (typeof document !== 'undefined') {
+  try {
+    const saved = window.localStorage?.getItem('arabic-vocab-theme')
+    if (saved && ['nuit', 'jour', 'encre'].includes(saved)) {
+      document.documentElement.setAttribute('data-theme', saved)
+    }
+  } catch { /* localStorage indisponible (mode privé), pas grave */ }
+}
 
 const PAGE_SIZE = 50
 
@@ -27,6 +39,138 @@ function useDebounced(value, delay = 200) {
   }, [value, delay])
   return v
 }
+
+/* ============================================================
+   THÈMES — liste des thèmes disponibles avec leurs vignettes
+   de couleurs (utilisées pour l'aperçu dans le sélecteur).
+   ============================================================ */
+const THEMES = [
+  {
+    id: 'nuit',
+    label: 'Nuit',
+    description: 'Bleu nuit, or et émeraude',
+    swatch: ['#0e2e2a', '#d4af37', '#10b981'],
+  },
+  {
+    id: 'jour',
+    label: 'Jour',
+    description: 'Crème, or foncé, lecture confortable',
+    swatch: ['#f7f3e8', '#a17a1e', '#0d8059'],
+  },
+  {
+    id: 'encre',
+    label: 'Encre',
+    description: 'Noir intense, or vif, turquoise',
+    swatch: ['#050608', '#fbbf24', '#14b8a6'],
+  },
+]
+const THEME_IDS = THEMES.map(t => t.id)
+const DEFAULT_THEME = 'nuit'
+const THEME_STORAGE_KEY = 'arabic-vocab-theme'
+
+/* useTheme : lit/écrit le thème dans localStorage et l'applique sur <html>. */
+function useTheme() {
+  const [theme, setThemeState] = useState(() => {
+    if (typeof window === 'undefined') return DEFAULT_THEME
+    try {
+      const saved = window.localStorage.getItem(THEME_STORAGE_KEY)
+      if (saved && THEME_IDS.includes(saved)) return saved
+    } catch { /* localStorage indisponible (mode privé, etc.) */ }
+    return DEFAULT_THEME
+  })
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return
+    document.documentElement.setAttribute('data-theme', theme)
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme)
+    } catch { /* ignore */ }
+  }, [theme])
+
+  const setTheme = useCallback((id) => {
+    if (THEME_IDS.includes(id)) setThemeState(id)
+  }, [])
+
+  return [theme, setTheme]
+}
+
+/* ============================================================
+   ThemeSwitcher — petit bouton flottant en haut à droite qui
+   ouvre un menu d'aperçu des thèmes disponibles. La sélection
+   est mémorisée dans localStorage et appliquée immédiatement.
+   ============================================================ */
+function ThemeSwitcher() {
+  const [theme, setTheme] = useTheme()
+  const [open, setOpen] = useState(false)
+  const wrapperRef = useRef(null)
+
+  // Fermer si on clique ailleurs ou si on appuie sur Échap
+  useEffect(() => {
+    if (!open) return
+    function onDocPointer(e) {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false)
+    }
+    function onKey(e) { if (e.key === 'Escape') setOpen(false) }
+    document.addEventListener('pointerdown', onDocPointer)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onDocPointer)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  return (
+    <div className="theme-switcher" ref={wrapperRef}>
+      <button
+        type="button"
+        className="theme-switcher-btn"
+        onClick={() => setOpen(o => !o)}
+        aria-label="Choisir un thème de couleur"
+        aria-expanded={open}
+        title="Thème de couleur"
+      >
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          {/* Petite palette stylisée : disque divisé en 3 quartiers */}
+          <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+          <path d="M12 2 A10 10 0 0 1 20.66 7 L12 12 Z" fill="currentColor" opacity="0.85"/>
+          <path d="M20.66 7 A10 10 0 0 1 20.66 17 L12 12 Z" fill="currentColor" opacity="0.55"/>
+          <path d="M20.66 17 A10 10 0 0 1 12 22 L12 12 Z" fill="currentColor" opacity="0.3"/>
+        </svg>
+      </button>
+      {open && (
+        <div className="theme-switcher-menu" role="menu">
+          <div className="theme-switcher-title">Thème</div>
+          {THEMES.map(t => (
+            <button
+              key={t.id}
+              type="button"
+              role="menuitemradio"
+              aria-checked={theme === t.id}
+              className={`theme-option ${theme === t.id ? 'is-active' : ''}`}
+              onClick={() => { setTheme(t.id); setOpen(false) }}
+            >
+              <span className="theme-swatch" aria-hidden="true">
+                {t.swatch.map((c, i) => (
+                  <span key={i} className="theme-swatch-dot" style={{ background: c }} />
+                ))}
+              </span>
+              <span className="theme-option-text">
+                <span className="theme-option-label">{t.label}</span>
+                <span className="theme-option-desc">{t.description}</span>
+              </span>
+              {theme === t.id && (
+                <svg className="theme-check" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">
+                  <path d="M5 10 L9 14 L15 6" stroke="currentColor" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              )}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 
 /* ============================================================
    useIsTouch — détecte si l'utilisateur est sur un appareil tactile
@@ -179,7 +323,7 @@ function NoteBadge({ note, hoverTargetRef }) {
           <rect   x="9.05" y="8.6" width="1.9" height="6.4" rx="0.95" fill="currentColor" />
         </svg>
       </button>
-      {open && (
+      {open && createPortal(
         <span
           ref={bubbleRef}
           className={`note-bubble note-bubble-${pos.placement}`}
@@ -187,7 +331,8 @@ function NoteBadge({ note, hoverTargetRef }) {
           style={{ left: `${pos.left}px`, top: `${pos.top}px` }}
         >
           {note}
-        </span>
+        </span>,
+        document.body
       )}
     </>
   )
@@ -335,6 +480,9 @@ export default function App() {
           onClose={() => setQuizOpen(false)}
         />
       )}
+
+      {/* Sélecteur de thème (flottant, haut-droite) */}
+      <ThemeSwitcher />
     </div>
   )
 }

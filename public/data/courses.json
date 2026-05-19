@@ -40,5 +40,19 @@
       }
     ],
     "vocabularyFile": "/data/vocabulary/mustawa-2-2.json"
+  },
+  {
+    "id": "furqan-2-3",
+    "title": "Al-Furqan - مستوى ثاني - 3",
+    "category": "Arabe - Vocabulaire",
+    "description": "Vocabulaire cours 3 mustawa 2",
+    "level": "",
+    "ankiFiles": [
+      {
+        "title": "Télécharger le paquet Anki - Vocabulaire cours 3 mustawa 2",
+        "file": "/anki/mustawa-2-3.apkg"
+      }
+    ],
+    "vocabularyFile": "/data/vocabulary/mustawa-2-3.json"
   }
 ]

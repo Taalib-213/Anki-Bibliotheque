@@ -1,0 +1,245 @@
+[
+  {
+    "type": "nom",
+    "arabic": "مُسْتَأْجِر",
+    "translation": "Locataire",
+    "singular": "مُسْتَأْجِر",
+    "plural": "مُسْتَأْجِرُون",
+    "synonym": "",
+    "opposite": "مُؤَجِّر"
+  },
+  {
+    "type": "nom",
+    "arabic": "إِيجَار",
+    "translation": "Location / bail",
+    "singular": "إِيجَار",
+    "plural": "",
+    "synonym": "تَأْجِير",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِسْتَأْجَرَ",
+    "translation": "Louer / prendre une location",
+    "past": "اِسْتَأْجَرَ",
+    "present": "يَسْتَأْجِرُ",
+    "masdar": "اِسْتِئْجَار",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَجَّرَ",
+    "translation": "Louer à quelqu’un / donner en location",
+    "past": "أَجَّرَ",
+    "present": "يُؤَجِّرُ",
+    "masdar": "تَأْجِير",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُؤَجِّر",
+    "translation": "Propriétaire / bailleur",
+    "singular": "مُؤَجِّر",
+    "plural": "مُؤَجِّرُون",
+    "synonym": "",
+    "opposite": "مُسْتَأْجِر"
+  },
+  {
+    "type": "nom",
+    "arabic": "مُؤَجَّر",
+    "translation": "Ce qui est mis en location",
+    "singular": "مُؤَجَّر",
+    "plural": "مُؤَجَّرَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَجِير",
+    "translation": "Prestataire / personne louée pour un travail",
+    "singular": "أَجِير",
+    "plural": "أُجَرَاء",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "إِجَّاص",
+    "translation": "Poire",
+    "singular": "إِجَّاص",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "دَرَّبَ",
+    "translation": "Entrainer / former",
+    "past": "دَرَّبَ",
+    "present": "يُدَرِّبُ",
+    "masdar": "تَدْرِيب",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَدَرَّبَ",
+    "translation": "S'entrainer",
+    "past": "تَدَرَّبَ",
+    "present": "يَتَدَرَّبُ",
+    "masdar": "تَدَرُّب",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "سَاق",
+    "translation": "Jambe",
+    "singular": "سَاق",
+    "plural": "سِيقَان",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "فَضَّلَ",
+    "translation": "Favoriser / preferer",
+    "past": "فَضَّلَ",
+    "present": "يُفَضِّلُ",
+    "masdar": "تَفْضِيل",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مُشْمِس",
+    "translation": "Ensoleillé",
+    "singular": "مُشْمِس",
+    "plural": "مُشْمِسُون",
+    "synonym": "",
+    "opposite": "غَائِم"
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَشْمَسَ",
+    "translation": "Devenir ensoleillé / faire soleil",
+    "past": "أَشْمَسَ",
+    "present": "يُشْمِسُ",
+    "masdar": "إِشْمَاس",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "قَابَلَ",
+    "translation": "Rencontrer / faire face à  / Donner en contrepartie",
+    "past": "قَابَلَ",
+    "present": "يُقَابِلُ",
+    "masdar": "مُقَابَلَة",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "التَّالِي",
+    "translation": "Ce qui suit / prochain",
+    "singular": "تَالٍ",
+    "plural": "تَالُون",
+    "synonym": "",
+    "opposite": "السَّابِق"
+  },
+  {
+    "type": "nom",
+    "arabic": "السِّمْسَار",
+    "translation": "Courtier / agent",
+    "singular": "سِمْسَار",
+    "plural": "سَمَاسِرَة",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "شَارِع",
+    "translation": "Rue",
+    "singular": "شَارِع",
+    "plural": "شَوَارِع",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَطَلَّ",
+    "translation": "Donner (la vue) sur",
+    "past": "أَطَلَّ",
+    "present": "يُطِلُّ",
+    "masdar": "إِطْلَال",
+    "harfJarr": "عَلَى"
+  },
+  {
+    "type": "nom",
+    "arabic": "مَكْتَب",
+    "translation": "Bureau",
+    "singular": "مَكْتَب",
+    "plural": "مَكَاتِب",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "هَادِئ",
+    "translation": "Calme",
+    "singular": "هَادِئ",
+    "plural": "هَادِئُون",
+    "synonym": "",
+    "opposite": "صَاخِب"
+  },
+  {
+    "type": "verbe",
+    "arabic": "اِتَّصَلَ",
+    "translation": "Être en lien avec / contacter",
+    "past": "اِتَّصَلَ",
+    "present": "يَتَّصِلُ",
+    "masdar": "اِتِّصَال",
+    "harfJarr": "بِـ"
+  },
+  {
+    "type": "verbe",
+    "arabic": "تَصَوَّرَ",
+    "translation": "Imaginer / se représenter",
+    "past": "تَصَوَّرَ",
+    "present": "يَتَصَوَّرُ",
+    "masdar": "تَصَوُّر",
+    "harfJarr": ""
+  },
+  {
+    "type": "verbe",
+    "arabic": "أَمَّنَ",
+    "translation": "Sécuriser / épargner de quelque chose / garantir",
+    "past": "أَمَّنَ",
+    "present": "يُؤَمِّنُ",
+    "masdar": "تَأْمِين",
+    "harfJarr": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "تَأْمِين",
+    "translation": "Caution / assurance",
+    "singular": "تَأْمِين",
+    "plural": "",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "مِئَة",
+    "translation": "100",
+    "singular": "مِئَة",
+    "plural": "مِئَات",
+    "synonym": "",
+    "opposite": ""
+  },
+  {
+    "type": "nom",
+    "arabic": "أَلْف",
+    "translation": "1000",
+    "singular": "أَلْف",
+    "plural": "آلَاف",
+    "synonym": "",
+    "opposite": ""
+  }
+]
