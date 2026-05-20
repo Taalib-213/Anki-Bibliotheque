@@ -376,5 +376,23 @@
     "present": "يُسْرِعُ",
     "masdar": "إِسْرَاع",
     "harfJarr": ""
+  },
+  {
+  "type": "verbe",
+  "arabic": "تَأَنَّسَ",
+  "translation": "Trouver la compagnie",
+  "past": "تَأَنَّسَ",
+  "present": "يَتَأَنَّسُ",
+  "masdar": "تَأَنُّس",
+  "harfJarr": "بِ"
+},
+{
+    "type": "verbe",
+    "arabic": "قَيَّضَ",
+    "translation": "Apprêter / préparer",
+    "past": "قَيَّضَ",
+    "present": "يُقَيِّضُ",
+    "masdar": "تَقْيِيض",
+    "harfJarr": ""
   }
 ]
