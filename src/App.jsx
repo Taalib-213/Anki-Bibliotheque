@@ -572,15 +572,19 @@ function VocabTable({ vocab }) {
   // Réinitialiser la pagination quand la recherche change
   useEffect(() => { setVisibleCount(PAGE_SIZE) }, [debouncedQuery])
 
-  // Afficher le bouton dès que le haut du conteneur sort de l'écran
+  // Afficher le bouton dès que l'utilisateur a scrollé de plus de 200px.
+  // On écoute sur document ET window pour couvrir Safari iOS et Chrome Android.
   useEffect(() => {
     function onScroll() {
-      const container = containerRef.current
-      if (!container) return
-      setShowScrollTop(container.getBoundingClientRect().top < -100)
+      setShowScrollTop(window.scrollY > 200)
     }
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    document.addEventListener('scroll', onScroll, { passive: true })
+    onScroll() // vérification initiale
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      document.removeEventListener('scroll', onScroll)
+    }
   }, [])
 
   function scrollToTop() {
