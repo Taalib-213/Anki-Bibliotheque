@@ -1597,3 +1597,52 @@ main.container {
   .quiz-fab { padding: 14px; }
   .quiz-fab-icon { width: 24px; height: 24px; }
 }
+
+/* ============================================================
+   Bouton flottant "Remonter en haut du tableau"
+   ============================================================ */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 100px;   /* au-dessus du bouton quiz flottant */
+  right: 24px;
+  z-index: 200;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid var(--glass-border-strong);
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(var(--shadow-rgb), 0.35);
+  transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease, opacity 0.22s ease;
+  animation: scroll-top-in 0.22s ease;
+}
+
+@keyframes scroll-top-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.85); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.scroll-top-btn:hover {
+  background: rgba(var(--gold-rgb), 0.18);
+  box-shadow: 0 6px 24px rgba(var(--gold-rgb), 0.25);
+  transform: translateY(-2px);
+}
+
+.scroll-top-btn:active {
+  transform: scale(0.93);
+}
+
+@media (max-width: 640px) {
+  .scroll-top-btn {
+    bottom: 88px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+  }
+}

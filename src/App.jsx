@@ -566,9 +566,26 @@ function VocabTable({ vocab }) {
   const [query, setQuery] = useState('')
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const debouncedQuery = useDebounced(query, 200)
+  const [showScrollTop, setShowScrollTop] = useState(false)
+  const containerRef = useRef(null)
 
   // Réinitialiser la pagination quand la recherche change
   useEffect(() => { setVisibleCount(PAGE_SIZE) }, [debouncedQuery])
+
+  // Afficher le bouton dès que le haut du conteneur sort de l'écran
+  useEffect(() => {
+    function onScroll() {
+      const container = containerRef.current
+      if (!container) return
+      setShowScrollTop(container.getBoundingClientRect().top < -100)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  function scrollToTop() {
+    containerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   const filtered = useMemo(() => {
     const q = normalize(debouncedQuery)
@@ -588,7 +605,20 @@ function VocabTable({ vocab }) {
   const hasMore = visibleCount < filtered.length
 
   return (
-    <div className="vocab-container">
+    <div className="vocab-container" ref={containerRef}>
+      {showScrollTop && createPortal(
+        <button
+          className="scroll-top-btn"
+          onClick={scrollToTop}
+          aria-label="Remonter en haut du tableau"
+          title="Remonter en haut"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="18 15 12 9 6 15"/>
+          </svg>
+        </button>,
+        document.body
+      )}
       <div className="vocab-toolbar">
         <input
           type="search"

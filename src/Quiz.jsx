@@ -602,10 +602,17 @@ function buildTypedQuestion(qType, sourcePool, harfDict, excludedKeys) {
 }
 
 // Détermine si une réponse est correcte pour la question donnée.
-// - QCM standard : égalité stricte avec correctAnswers.
-// - QCM harf jar OU typed : comparaison par forme normalisée avec correctNorms.
+// - QCM standard (arabe, harf jar) : comparaison par forme normalisée avec correctNorms.
+// - QCM "AR → FR" : égalité stricte avec correctAnswers (le display complet,
+//   ex "Chaleur / Température"), car normaliser la chaîne entière ne matcherait
+//   pas les variantes individuelles dans correctNorms.
+// - Typed : comparaison par forme normalisée avec correctNorms.
 function isAnswerCorrect(answer, question) {
   if (!question) return false
+  // QCM français : la bonne option est l'affichage complet — comparaison stricte.
+  if (question.isFrenchAnswer && question.correctAnswers) {
+    return question.correctAnswers.has(answer)
+  }
   if (question.correctNorms) {
     return question.correctNorms.has(normalize(answer))
   }
